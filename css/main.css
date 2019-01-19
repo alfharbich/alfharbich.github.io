@@ -7,7 +7,7 @@
 body { 
     font-size: 16px; 
     line-height: 32px;
-    font-family: Ubuntu, sans-serif;
+    font-family: "Ubuntu", sans-serif;
     color: fuchsia;
 }
 
@@ -41,5 +41,5 @@ header img {
 }
 
 footer {
-    font-size: 0.25rem;
+    font-size: 0.66rem;
 }
