@@ -8,18 +8,19 @@ body {
     font-size: 16px; 
     line-height: 32px;
     font-family: "Ubuntu", sans-serif;
-    color: fuchsia;
+    color: gray;
 }
 
 h1 {
-    font-size: 3.0rem  /*(rem is a unit of measure) */;
-    color: goldenrod;
+    font-size: 2.3rem  /*(rem is a unit of measure) */;
+    color: silver;
 }
 
 h2 {
     font-size: 1.5rem;
     text-align: center;
-    border-bottom: 1px solid #bbb;
+    background-color: darkred ;
+    border-bottom: 1px solid royalblue;
 }
 
 header, main, footer {
@@ -30,12 +31,12 @@ header, main, footer {
 
 header, footer, footer a {
     text-align: center;
-    background-color: salmon;
+    background-color: darkblue;
     color: whitesmoke;
 }
 
 header img {
-    width: 400px;
+    width: 275px;
     height: auto;
     float: right;
 }
