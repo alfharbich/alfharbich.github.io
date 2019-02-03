@@ -1,7 +1,7 @@
 
 body {
     background-color: #E0FFFF;
-    font-family: href='https://fonts.googleapis.com/css?family=Roboto';
+    font-family: 'Noto Sans JP', sans-serif;
     font-size: 16px;
     color: black;
 }
@@ -11,7 +11,7 @@ body {
 }
 header {
     background-color: #6682ff;
-    
+    display:     
     color: black;
     text-align: center;
     width: 100%;
@@ -23,11 +23,12 @@ header img, .headings {
     width: 29%;   
 }
 h1 {
-    font-size: 36px;
-    font-family: href='https://fonts.googleapis.com/css?family=Parisiene';
+    font-size: 52px;
+    font-family: 'Parisienne', cursive;
 }
 h2 {
-    font-size: 20px;
+    font-size: 28px;
+    font-family: cursive
 }
 ul {
     list-style-type: none;
@@ -35,14 +36,14 @@ ul {
     padding: 0;
     width: 100%;
     background-color: #E0FFFF;
+    text-align: center;
 }
 li a {
     display: block;
     width: 100%;
     color: black;
     padding: 8px 16px;
-    text-decoration: none;
-}
+    }
 li a:hover {
     background-color: #006647;
     color: white;
