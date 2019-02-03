@@ -1,23 +1,26 @@
 
 body {
-    background-color: white;
-    font-family: href='https://fonts.googleapis.com/css?family=Alegreya';
+    background-color: #6682ff;
+    font-family: href='https://fonts.googleapis.com/css?family=Roboto';
     font-size: 16px;
     color: black;
 }
 #logo {
     display: block;
+    font-family: cursive;
 }
 header {
-    background-color: #99bbff;
+    background-color: #E0FFFF;
+    
     color: black;
     text-align: center;
     width: 100%;
 }
 header img, .headings {
-    display: inline-block;
-    vertical-align: middle;
-    margin: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;   
 }
 h1 {
     font-size: 24px;
@@ -30,7 +33,7 @@ ul {
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color: #ffff66;
+    background-color: #E0FFFF;
 }
 li a {
     display: block;
@@ -40,10 +43,10 @@ li a {
     text-decoration: none;
 }
 li a:hover {
-    background-color: #000066;
+    background-color: #006647;
     color: white;
 }
 .active {
-    background-color: #6699ff;
+    background-color: #6682ff;
     color: white;
 }
