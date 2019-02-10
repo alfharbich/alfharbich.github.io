@@ -83,12 +83,7 @@ nav {
     background-color: #728DA5;
 }
 
-li {
-    display: inline-block;
-    font-size: 1.5rem;
-    padding: .5rem;
-    vertical-align: middle;
-}
+
 
 main {
     max-width: 800px;
@@ -159,6 +154,7 @@ main {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    visibility: hidden;
     
 }
 .article1 {
@@ -202,4 +198,3 @@ footer {
     text-align: center;
     background-color: #728DA5;
 }
-
