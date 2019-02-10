@@ -170,7 +170,7 @@ main {
 }
 
 .articleimage {
-    width: 300px;
+    width: 200px;
     height: auto;
     float: right;
     padding-right: 20px;
@@ -187,9 +187,9 @@ main {
 }
 
 .mapimage {
-    width:250px;
+    width:200px;
     height: auto;
-    float: center;
+    float: initial;
     padding-right: 20px;
     padding-top: 20px;
 
