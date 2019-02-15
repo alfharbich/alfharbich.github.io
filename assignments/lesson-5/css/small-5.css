@@ -198,11 +198,12 @@ footer {
 
 
 
-footer aside   {font-family: 'Lato', sans-serif;
+footer aside   {font-family: Verdana, Geneva, Tahoma, sans-serif;
 color: darkolivegreen;
 font-size: 1rem;
 background-color: rgb(74, 186, 214);
 padding-top: 30px;
+padding-bottom: 30px;
 text-align: center;
 }
 
