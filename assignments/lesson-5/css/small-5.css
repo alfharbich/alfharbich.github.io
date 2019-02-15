@@ -199,15 +199,15 @@ footer {
 
 
 footer aside   {font-family: 'Lato', sans-serif;
-color: #fff;
+color: darkolivegreen;
 font-size: 1rem;
-background-color: #79b473;
+background-color: rgb(74, 186, 214);
 padding-top: 30px;
 text-align: center;
 }
 
 p.footer-bottom { 
-    background-color: rgb(74, 214, 93);
+    background-color: rgb(63, 129, 96);
     padding: 25px;
     color: darkblue;
     font-family: 'Lato', sans-serif;
