@@ -240,5 +240,5 @@ p.footer-bottom {
 .clearfix::after {
     content: "";
     display: table;
-    clear: both:
+    clear: both;
 }
