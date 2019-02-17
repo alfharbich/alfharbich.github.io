@@ -14,7 +14,11 @@
     <body>
         <header>          
             <h1>Welcome to Preston!</h1>
-           <img src="images/preston-sign.jpg" alt="Preston Sign">
+            <picture>
+                    <source srcset="images/preston-sign-400.jpg" media="(min-width: 500px) and (max-width: 799px)">
+                        <source srcset="images/preston-sign-800.jpg" media="(min-width: 800px)">   
+                    <img src="images/preston-sign-200.jpg" alt="Preston Sign" class="sign">
+                </picture>
             <div class="motto">
                <h2>It's soda, not pop!</h2>
             </div>
@@ -38,9 +42,13 @@
                 <h2>The Town of Preston</h2>
             </div>
             <div class="summary">
-                <img src="images/cloudy-sunset.jpg" alt="cloudy sunset" class="heroimage">
-                <section class="weathersummary">
-                    <h3>Weather Summary</h3>
+                <picture>
+                    <source srcset="images/franklin-400.jpg" media="(min-width: 500px) and (max-width: 799px)">
+                        <source srcset="images/franklin-800.jpg" media="(min-width: 800px)">   
+                    <img src="images/franklin-200.jpg" alt="Franklin Hero" class="heroimage">
+                </picture>
+                    <section class="weathersummary">
+                       <h3>Weather Summary</h3>
                     <div class="weatherdetails">
                         <p class="label">Currently:</p>
                         <p class="value">cloudy</p>
@@ -87,24 +95,27 @@
                         <p>Lorem ipsum dolor sit amet, has minim primis consectetuer no. Mei solet primis corrumpit te, ne tollit vivendo detracto est. An quodsi complectitur sea. Etiam tempor an duo, vitae integre noluisse nam ex, mel singulis pertinacia delicatissimi ex.
 
                             Disputando mediocritatem in mei. Ne eos decore appareat contentiones. Offendit interpretaris eam ne. An vis omnium platonem. Diceret molestie persecuti per ei. Quo prompta dissentias ne, elit persequeris cum cu, qui an sint exerci.</p>
-                        <img src="images/mountain-canyon.jpg" alt="Mountain Canyon" class="articleimage">
-                </article>
-               
-        
-            <section class="contactinfo">             
-                <h5>Check out Preston!</h5>
-                  <img src="images/preston-map.jpg" alt="Map of Preston" class="mapimage">
-            </section>
+                            <picture>
+                                    <source srcset="images/mountain-canyon-400.jpg" media="(min-width: 500px) and (max-width: 799px)">
+                                        <source srcset="images/mountain-canyon-800.jpg" media="(min-width: 800px)">   
+                            <img src="images/mountain-canyon-200.jpg" alt="Mountain Canyon" class="articleimage">
+                            </picture>
+                        </article>     
         </main>
         <footer> 
+                
             <aside>
+                    <section class="contactinfo">             
+                            <h5>Check out Preston!</h5>
+                              <img src="images/preston-map.jpg" alt="Map of Preston" class="mapimage">
+                        </section>
                 <div class="contact">
                         <h4>Contact the Preston Chamber of Commerce:</h4>
                         <p>chamberofcommerce@preston.gov</p>                   
                 </div>
             </aside>
-            <p class="footer-bottom">&copy;2019 | Alfred Harbich | <a href="http://byui.edu">BYUI - Idaho</a></p>  
+            <p class="footer-bottom">&copy;2019 | Alfred Harbich | <a href="http://byui.edu">BYUI - Idaho</a> | <span id="current-date"></span></p>  
         </footer>
+        <script src="scripts/current-date.js"></script>
     </body>
-
 </html>
