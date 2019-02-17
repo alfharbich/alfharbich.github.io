@@ -1,0 +1,218 @@
+body {
+    background-color: #E0FFFF;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+#logo {
+    display: block;
+    font-family: cursive;
+}
+header {
+    background-color: #6682ff;
+    text-align: center;
+    width: 100%;
+}
+header img, .headings {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 29%;   
+}
+h1 {
+    font-size: 52px;
+    font-family: 'Parisienne', cursive;
+}
+h2 {
+    font-size: 28px;
+    font-family: cursive;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #E0FFFF;
+    text-align: center;
+}
+li a {
+    display: block;
+    width: 100%;
+    color: black;
+    padding: 8px 16px;
+    }
+li a:hover {
+    background-color: #006647;
+    color: white;
+}
+.active {
+    background-color: #6682ff;
+    color: white;
+}
+
+.currentconditions {
+    display: inline-block;
+    margin: 1rem 0 1rem 5rem;
+    padding: 1.2rem;
+    vertical-align: middle;
+    color: white;
+    background-color: #728da5;
+    border: 1.5pt solid #d4ba6a;
+    font-size: 1.1rem;
+}
+
+.currentconditions img {
+    width: 100px;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.currentconditions p {
+    vertical-align: middle;
+    display: inline-block;
+    padding: 1rem;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+    background-color: #728DA5;
+}
+
+
+
+main {
+    max-width: 800px;
+    margin: auto;
+}
+
+.town {
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+    margin: auto;
+    width: 55%;
+}   
+
+.heroimage {
+    width: 100%;
+    margin:auto;
+}
+
+.summary {
+    position: relative;
+    display:block;
+    margin:auto;
+}
+
+.weathersummary {
+    background-color: rgb(255, 234, 170, .5);
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 50px;
+    top: 20px;
+    z-index: 1;
+    
+}
+
+.weatherdetails {
+    font-size: 1rem;
+    padding-left: 20px;
+    display: inline-block;
+
+    
+}
+
+.label {
+    display:inline-block;
+    padding-left: 20px;
+    width: 100px;
+    margin-top: 0px;
+}
+
+.value {
+    display:inline-block;
+    left: 150px;
+    width: 100px; 
+    margin-top: 0px;   
+}
+
+.weathersummary h3 {
+    padding-left: 20px;
+    text-decoration: underline;
+}
+
+.forecast {
+    width: 55%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    visibility: hidden;
+    
+}
+.article1 {
+    width:55%;
+    height: 250px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.articleimage {
+    width: 200px;
+    height: auto;
+    float: right;
+    padding-right: 20px;
+    
+}
+
+.contactinfo {
+    width: 55%;
+    margin: auto;
+    height: 250px;
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+.mapimage {
+    width:200px;
+    height: auto;
+    float: initial;
+    padding-right: 20px;
+    padding-top: 20px;
+
+}
+
+footer {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+
+
+footer aside   {font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: darkolivegreen;
+font-size: 1rem;
+background-color: rgb(74, 186, 214);
+padding-top: 30px;
+padding-bottom: 30px;
+text-align: center;
+}
+
+p.footer-bottom { 
+    background-color: rgb(63, 129, 96);
+    padding: 25px;
+    color: darkblue;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+}
