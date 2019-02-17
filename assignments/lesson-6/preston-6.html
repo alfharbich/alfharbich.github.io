@@ -24,8 +24,8 @@
             </div>
         </header>
         <nav>
-            <button>&#9776;</button>
-            <ul class="hide mainmenu" id="primaryNav"></ul>
+                <button onclick="toggleNavMenu()">&#9776;</button>
+                <ul class="hide mainmenu" id="primaryNav"></ul>
             <ul id="menu">
                 <li><a>Home</a></li>
                 <li class="active"><a>Preston</a></li>
@@ -35,7 +35,7 @@
                 <li><a>Gallery</a></li>
                 <li><a>Menu</a></li>
             </ul>
-        </nav>        
+            </nav>       
         <main>
             <div class="town">
                 <h2>The Town of Preston</h2>
@@ -90,17 +90,23 @@
                 </section>
                 
                 <article class="article1">
-                        <h3>Article</h3>
+                        <h3>Recent Discover in Idaho</h3>
+                        
                         <picture>
                                 <source srcset="images/mountain-canyon-400.jpg" media="(min-width: 500px) and (max-width: 799px)">
                                     <source srcset="images/mountain-canyon-800.jpg" media="(min-width: 800px)">   
                         <img src="images/mountain-canyon-200.jpg" alt="Mountain Canyon" class="articleimage">
                         </picture>
-                        <p>Lorem ipsum dolor sit amet, has minim primis consectetuer no. Mei solet primis corrumpit te, ne tollit vivendo detracto est. An quodsi complectitur sea. Etiam tempor an duo, vitae integre noluisse nam ex, mel singulis pertinacia delicatissimi ex.
+                        <p>From <a href="https://kids.nationalgeographic.com/explore/states/idaho/#idaho-ranch.jpg">National Geographic Kids</a>: Archaeologists recently made a huge discovery in Idaho:
+                             a blade-like tool made of rock. What’s the big deal? It turns out the blade 
+                             is more than 13,500 years old, proving that people have lived in the area at least a few 
+                             thousand years longer than experts previously thought. Thousands of years after the blade’s 
+                             makers lived, other Native American tribes including the Nez Perce, Coeur d’Alene, Kootenai, 
+                             Shoshone, Bannock, and Blackfeet lived on the land.
 
-                            Disputando mediocritatem in mei. Ne eos decore appareat contentiones. Offendit interpretaris eam ne. An vis omnium platonem. Diceret molestie persecuti per ei. Quo prompta dissentias ne, elit persequeris cum cu, qui an sint exerci.</p>
-                            
-                        </article>     
+                         </p>
+                           
+                        </article>      
         </main>
         <footer> 
                 
@@ -117,5 +123,6 @@
             <p class="footer-bottom">&copy;2019 | Alfred Harbich | <a href="http://byui.edu">BYUI - Idaho</a> | <span id="current-date"></span></p>  
         </footer>
         <script src="scripts/current-date.js"></script>
+        <script src="scripts/burger.js"></script>
     </body>
 </html>

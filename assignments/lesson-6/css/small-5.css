@@ -50,6 +50,10 @@ li a:hover {
     color: white;
 }
 
+
+nav ul.hide {
+    display: none;
+}
 .currentconditions {
     display: inline-block;
     margin: 1rem 0 1rem 5rem;
