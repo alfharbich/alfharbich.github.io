@@ -11,7 +11,7 @@ body {
 header {
     background-color: #6682ff;
     text-align: center;
-    width: 100%;
+  
 }
 header img, .headings {
     display: block;
@@ -211,7 +211,7 @@ main {
 }
 
 footer {
-    margin-top: 75px;
+    margin-top: 80px;
     margin-bottom: 20px;
 }
 

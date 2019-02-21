@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
-        <meta charset="utf-8">       
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">      
         <link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
@@ -14,11 +15,10 @@
     <body>
         <header>          
             <h1>Welcome to Preston!</h1>
-            <picture>
-                    <source srcset="images/preston-sign-400.jpg" media="(min-width: 500px) and (max-width: 799px)">
-                        <source srcset="images/preston-sign-800.jpg" media="(min-width: 800px)">   
-                    <img src="images/preston-sign-200.jpg" alt="Preston Sign" class="sign">
-                </picture>
+             
+                    <img class="sign" src="images/preston-sign-200.jpg" alt="Preston Sign" sizes="50vw" srcset="images/preston-sign-200.jpg 400w,
+                    images/preston-sign-800.jpg 900w">
+              
             <div class="motto">
                <h2>It's soda, not pop!</h2>
             </div>
@@ -39,12 +39,10 @@
             <div class="town">
                 <h2>The Town of Preston</h2>
             </div>
-            <div class="summary">
-                <picture>
-                    <source srcset="images/franklin-400.jpg" media="(min-width: 500px) and (max-width: 799px)">
-                        <source srcset="images/franklin-800.jpg" media="(min-width: 800px)">   
-                    <img src="images/franklin-200.jpg" alt="Franklin Hero" class="heroimage">
-                </picture>
+            <div class="summary">                         
+                    <img class="heroimage" src="images/franklin-200.jpg" alt="Franklin Hero" sizes="50vw" srcset="images/franklin-200.jpg 400w,
+                    images/franklin-800.jpg 900w">
+                
                     <section class="weathersummary">
                        <h3>Weather Summary</h3>
                     <div class="weatherdetails">
@@ -88,14 +86,12 @@
                     </table>
                 </section>
                 
-                <article class="article1">
+                <article>
                         <h3>Recent Discover in Idaho</h3>
                         
-                        <picture>
-                                <source srcset="images/mountain-canyon-400.jpg" media="(min-width: 500px) and (max-width: 799px)">
-                                    <source srcset="images/mountain-canyon-800.jpg" media="(min-width: 800px)">   
-                        <img src="images/mountain-canyon-200.jpg" alt="Mountain Canyon" class="articleimage">
-                        </picture>
+                        
+                        <img class="articleimage" src="images/mountain-canyon-200.jpg" alt="Mountain Canyon">
+                        
                         <p>From <a href="https://kids.nationalgeographic.com/explore/states/idaho/#idaho-ranch.jpg">National Geographic Kids</a>: Archaeologists recently made a huge discovery in Idaho:
                              a blade-like tool made of rock. What’s the big deal? It turns out the blade 
                              is more than 13,500 years old, proving that people have lived in the area at least a few 
