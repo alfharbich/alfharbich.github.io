@@ -1,3 +1,5 @@
+
+
 body {
     background-color: #E0FFFF;
     font-family: 'Noto Sans JP', sans-serif;
@@ -11,8 +13,13 @@ body {
 header {
    
     background-color: #6682ff;    
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: #bbcccc;
+    padding: .5em;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
    
   
 }
@@ -122,6 +129,7 @@ nav ul.hide {
 main {
     max-width: 800px;
     margin: auto;
+    
 }
 
 .town {
@@ -283,3 +291,4 @@ p.footer-bottom {
     display: table;
     clear: both;
 }
+
