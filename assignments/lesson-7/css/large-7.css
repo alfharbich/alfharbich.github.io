@@ -54,11 +54,16 @@
         visibility: visible;
     }
 
+   h2 {
+       text-align: center;
+   }
+   
     div.imageGallery {
+        
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-      
-        margin: auto;
+        
+        
     }
 
     div.imageGallery figure:hover {
