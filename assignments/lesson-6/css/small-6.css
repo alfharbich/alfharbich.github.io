@@ -60,9 +60,12 @@ nav ul li a {
     color: black;
     padding: 8px 16px;
     }
+
 nav ul li a:hover {
     background-color: #006647;
-    color: white;
+    width: 100%;
+    padding: 8px 16px;
+        
 }
 
 nav ul.hide {
@@ -71,7 +74,9 @@ nav ul.hide {
 
 .active {
     background-color: #6682ff;
+    
     color: white;
+    
 }
 
 
