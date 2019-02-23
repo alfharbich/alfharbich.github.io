@@ -11,20 +11,29 @@ body {
 header {
    
     background-color: #6682ff;
-    text-align: center;
+    
+    display: flex;
+    justify-content: center;
    
   
 }
 header img, .headings {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 29%;   
+    max-width: 20vw;
+    max-height: 20vw;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    padding-left: 2em;
+    vertical-align: center;
+    
+    margin-right: 10px;
+    
 }
-h1 {
-    font-size: 52px;
+ h1 {
+    font-size: 32pt;
     font-family: 'Parisienne', cursive;
-}
+    text-align: center;
+} 
+
 h2 {
     font-size: 28px;
     font-family: cursive;
@@ -45,15 +54,6 @@ nav button {
     font-size: 2rem;
     text-align: center;
     background-color: #1fb8df;
-}
-
-.navigation {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-
 }
 
 
@@ -237,8 +237,8 @@ footer aside   {font-family: Verdana, Geneva, Tahoma, sans-serif;
 color: darkolivegreen;
 font-size: 1rem;
 background-color: rgb(74, 186, 214);
-padding-top: 30px;
-padding-bottom: 30px;
+padding-top: 1vw;
+padding-bottom: 1vw;
 text-align: center;
 }
 

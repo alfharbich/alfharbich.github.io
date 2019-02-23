@@ -1,4 +1,4 @@
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 54em) {
 
     
     nav button {
@@ -10,7 +10,6 @@
         list-style: none;
         margin: 0;
         padding: 0;
-        
         display: flex;
         flex-direction: row;
     
@@ -33,6 +32,12 @@
         justify-content: center;
         flex-direction: column;
         visibility: visible;
+    }
+
+    footer aside {
+        display: grid;
+        grid-template-columns: none;
+        margin: 0;
     }
     
 
