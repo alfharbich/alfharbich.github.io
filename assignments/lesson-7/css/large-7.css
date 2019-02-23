@@ -1,4 +1,4 @@
-@media only screen and (min-width: 54em) {
+@media only screen and (min-width: 950px) {
 
   
 
@@ -53,6 +53,18 @@
         flex-direction: column;
         visibility: visible;
     }
+
+    div.imageGallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+      
+        margin: auto;
+    }
+
+    div.imageGallery figure:hover {
+        box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+    }
+
 
     footer aside {
         display: grid;

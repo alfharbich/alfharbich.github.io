@@ -207,6 +207,32 @@ main {
     
 }
 
+
+figure {
+    background-image:
+    linear-gradient(to right,
+    #ffffff, #E5E5E5);
+}
+
+div.weatherGallery {
+    padding: 0 2%;
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+}
+
+div.weatherGallery figure img {
+    width: 100%;
+    margin: 0;
+    display: block;
+}
+
+div.weatherGallery figure figcaption {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: .7rem;
+    padding: 15px 0;
+}
+
 .contactinfo {
     width: 55%;
     margin: auto;
