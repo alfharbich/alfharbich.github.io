@@ -222,19 +222,19 @@ figure {
     #ffffff, #E5E5E5);
 }
 
-div.weatherGallery {
+div.imageGallery {
     padding: 0 2%;
     display: grid;
-    grid-template-columns: repeat(1, 100%);
+    grid-template-columns: repeat 1fr;
 }
 
-div.weatherGallery figure img {
+div.imageGallery figure img {
     width: 100%;
     margin: 0;
     display: block;
 }
 
-div.weatherGallery figure figcaption {
+div.imageGallery figure figcaption {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     font-size: .7rem;
