@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <title>Picture Gallery</title>
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <link href="css/small-8.css" rel="stylesheet">
+        <link href="css/medium-8.css" rel="stylesheet">
+        <link href="css/large-8.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+        
+        <meta name="description" content="Preston Happenings">
+    </head>
+
+    <body>
+        <header>          
+            <h1>Welcome to Preston!</h1>
+             
+                    <img class="sign" src="images/preston-sign-200.jpg" alt="Preston Sign" sizes="50vw" srcset="images/preston-sign-200.jpg 400w,
+                    images/preston-sign-800.jpg 900w">
+                    <div class="motto">
+                            <h2>It's soda, not pop!</h2>         
+                      </div>
+        </header>
+        <nav class="clearfix">
+              <button onclick="toggleNavMenu()"> &#9776; </button>
+              <ul id="primaryNav">
+                <li><a href="https://alfharbich.github.io">Home</a></li>
+                <li><a href="preston-7.html">Preston</a></li>
+                <li><a>Soda Springs</a></li>
+                <li><a>Fish Haven</a></li>
+                <li><a>Storm Center</a></li>
+                <li class="active"><a>Gallery</a></li>
+                 </ul>
+            </nav>     
+        <main>
+                <h2>Image Gallery</h2>
+                <div class="imageGallery">
+                    <figure>
+                        <img src="images/cloudy-sunset.jpg" alt="Cloudy Sunset">
+                        <figcaption>Cloudy Sunset</figcaption>
+                    </figure>
+        
+                    <figure>
+                        <img src="images/bluff-and-fence.jpg" alt="A bluff overlooking a highway">
+                        <figcaption>A bluff overlooking a highway</figcaption>
+                    </figure>
+        
+                    <figure>
+                        <img src="images/highway-clouds.jpg" alt="Clouds over the desert">
+                        <figcaption>Driving through the desert</figcaption>
+                    </figure>
+        
+                    <figure>
+                        <img src="images/sunset-valley.jpg" alt="Sunset over a valley">
+                        <figcaption>Sunset over a valley</figcaption>
+                    </figure>
+        
+                    <figure>
+                        <img src="images/rainbow.jpg" alt="Rainbow">
+                        <figcaption>Fat rainbow after rain</figcaption>
+                    </figure>
+        
+                    <figure>
+                        <img src="images/hiking-trail.jpg" alt="Hiking trail">
+                        <figcaption>A hiking trail in the hills</figcaption>
+                    </figure>
+                </div>
+        </main>
+        <footer>                 
+            <aside>
+                    <section class="contactinfo">             
+                            <h5>Check out Preston!</h5>
+                              <img src="images/preston-map.jpg" alt="Map of Preston" class="mapimage">
+                        </section>
+                <div class="contact">
+                        <h4>Contact the Preston Chamber of Commerce:</h4>
+                        <p>chamberofcommerce@preston.gov</p>                   
+                </div>
+            </aside>
+            <p class="footer-bottom">&copy;2019 | Alfred Harbich | <a href="http://byui.edu">BYUI - Idaho</a> | <span id="current-date"></span></p>  
+        </footer>
+        <script src="scripts/current-date.js"></script>
+        <script src="scripts/burger.js"></script>
+    </body>
+</html>
