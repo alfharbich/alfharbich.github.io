@@ -1,0 +1,191 @@
+body {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #2d3142;
+    padding: .5rem;
+    color: white;
+    height: 150px;
+    margin: 0px;
+}
+
+.headertext {
+    width: 100%;
+    text-align: center;
+}
+
+.subheading {
+    width: 100%;
+    text-align: center;
+}
+
+.img1 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+}
+
+@media (min-width: 750px) {
+nav {
+    width: 100%;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #adacb5;
+    display: inline-block;
+    width: 100%;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; 
+}
+
+li a:hover {
+    background: #d8d5db;
+}
+}
+
+.headertext {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.headertext h1 {
+    font-size: 3rem;
+    height: 40px;
+}
+
+.subheading {
+    font-size: 1.1rem;
+    color: white;
+    font-style: italic;
+}
+
+#cityname {
+    font-size: 30px;
+    text-align: center;
+}
+
+.currentweather {
+    display: inline-block;
+    margin: 1rem 0 1rem 5rem;
+    padding: 1.2rem;
+    vertical-align: middle;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.mainimg {
+    max-width: 100%;
+}
+
+.weathersummary {
+    position: relative;
+}
+
+.weathersummary1 {
+    background-color: rgb(24, 210, 107, 0.5);
+    padding: 10px;
+    line-height: 0.5em;
+    position: absolute;
+    width: 270px;
+    height: 325px;
+    left: 20px;
+    top: 20px;
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+}
+/*five day forcast*/
+#forcast {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+#forcast td, #forcast th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+} 
+
+#forcast tr:nth-child(even) {
+    color: #ddd;
+}
+
+#forcast th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #2d3142;
+    color: white;
+}
+
+.fivedayforcast {
+    background-color: #adacb5;
+    text-align: center;
+}
+
+/*Article*/
+
+
+/*footer*/
+footer {
+    background-color: #2d3142;
+    color: white;
+    height: 50px;
+    padding: .5rem;
+}
+
+#info {
+    width: 100%;
+    text-align: center;
+    line-height: 50%;
+}
+
+#date {
+    width: 100%;
+    text-align: center;
+    line-height: 80%;
+}
+
+@media (min-width: 750px) {
+button.hamburger {
+    visibility: hidden;
+}
+}
+
+/*Gallery Page*/
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap:3px;
+    text-align:center;
+}
+
+.grid img{
+    width:100%; 
+}
+
+.grid img:hover {
+    box-shadow:5px 5px 5px gray;
+}
+/*end gallery*/

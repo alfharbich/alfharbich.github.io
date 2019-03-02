@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">      
+        <link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <link href="css/small-7-test.css" rel="stylesheet">
+        <!--<link href="css/medium-7.css" rel="stylesheet">
+        <link href="css/large-7.css" rel="stylesheet">-->
+        <title>Preston Weather</title>
+        <meta name="description" content="Preston Happenings">
+    </head>
+
+    <body onload="windChill()">
+    <header>
+    <div class="headertext">
+    <h1>Right Weather</h1>
+    </div>
+    <div class="subheading">The Right Weather at the Right Time!</div>
+    </header>
+
+        <nav class="menu">
+            <button class="hamburger" onclick="toggleHam()">
+                &#9776;
+            </button>
+            <script>
+            function toggleHam() {
+                document.getElementsByClassName("nav")[0].classList.toggle("responsive");
+            }
+            </script>
+            <script>
+                function windChill(){
+                    var tempF= parseFloat(document.getElementById("deg").innerHTML);
+                    var speed= parseFloat(document.getElementById("mph").innerHTML);
+                    var factor = 35.74 + (0.6215*tempF) - (35.75*(Math.pow(speed,0.16))) +( (0.4275*tempF)*(Math.pow(speed,0.16)));
+                    document.getElementById("output").innerHTML=factor.toFixed(2);
+                }
+            </script>
+            <ul class="nav">
+                <li>
+                    <a href="#" onclick="">Menu</a>
+                </li>
+                <li>
+                    <a href="preston-7.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">Preston</a>
+                </li>
+                <li>
+                   <a href="#">Soda Springs</a>
+                </li>
+                <li>
+                    <a href="#">Fish Haven</a>
+                </li>
+                <li>
+                    <a href="#">Storm Center</a>
+                </li>
+                <li>
+                    <a href="gallery7.html">Gallery</a>
+                </li>
+            </ul>
+        </nav>
+
+        <h1 id="cityname">The Town of Preston</h1>
+
+        <div class="weathersummary">
+            <img src="images/franklin-original.jpg" alt="" class="mainimg">
+            <section class="weathersummary1">
+                <h3>Weather Summary</h3>
+                <div class="weatherdetails">
+                <p class="label">Currently:</p>
+                <p class="value">Sunny</p>
+                <p class="label">Temperature:</p>
+                <p class="value"><span id="deg">76</span> &deg;F</p>
+                <p class="label">Humidity:</p>
+                <p class="value">69%</p>
+                <p class="label">Precipitation:</p>
+                <p class="value">0 inches</p>
+                <p class="label">Wind Speed:</p>
+                <p class="value"><span id="mph">5</span> mph</p>
+                <p class="label">Wind Chill:</p>
+                <div id="output"></div>
+            </div>
+            </section>
+        </div>
+
+        <section class="fivedayforcast">
+                <h3>High Temperature Forecast</h3>
+                <table id="forcast">
+                  <thead>
+                    <tr>
+                      <th>Day</th>
+                      <th>Wed</th>
+                      <th>Thu</th>
+                      <th>Fri</th>
+                      <th>Sat</th>
+                      <th>Sun</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th>Forecast</th>
+                      <td>89&deg;F</td>
+                      <td>87&deg;F</td>
+                      <td>78&deg;F</td>
+                      <td>75&deg;F</td>
+                      <td>72&deg;F</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+    <footer>
+       <p id="info">&copy; 2018 Right Weather | Attributions | Jalan Barrow</p>
+       <p id="date"></p>
+       <script>
+           var d = new Date();
+           document.getElementById("date").innerHTML = d.toDateString();
+       </script>
+    </footer>

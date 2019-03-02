@@ -1,3 +1,4 @@
+
 table {
   display: flex;
   flex-direction: column;
@@ -6,16 +7,16 @@ table {
   border-collapse: collapse;
   width: 300px;
   background-color: #e7f0ed;
-  
+  box-shadow: 10px 10px 20px #628ca6;
   }
 
 thead {
-  font-size: 2rem;
+  font-size: 1.5rem;
   background-color: #7fb9c2;
   }
 
 tfoot {
-  font-size: 1rem;
+  font-size: .80rem;
   background-color: #7fb9c2;
   }
 
