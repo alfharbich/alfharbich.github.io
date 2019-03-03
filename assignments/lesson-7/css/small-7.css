@@ -45,6 +45,12 @@ header img, .headings {
     flex-direction: column;
 }
 
+.currentpage {
+
+    color: whitesmoke;
+    background-color: #6682ff;
+   }
+   
 /* NAVIGATION */
 
 nav {
@@ -85,7 +91,7 @@ nav {
 }
 
 .mainmenu a:hover {
-    color: #71816D;
+    color: whitesmoke;
     background-color: #006647;
 }
 
