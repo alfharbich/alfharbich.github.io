@@ -31,7 +31,7 @@ header img, .headings {
     display: flex;
     align-items: center;
 }
-.headings h1 {
+.headings h2 {
     font-size: 3em;
     font-family: Parisienne;
     color: #bbcccc;
