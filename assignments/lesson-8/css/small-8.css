@@ -252,6 +252,29 @@ figure img {
   margin: auto;
 }
 
+.slidecontainer {
+    width: 100%
+}
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 95%;
+    height: 25px;
+    background-color: rgba(0,0,0,0.1);
+
+
+
+}
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #0C0E94;
+}
+
+
 input,
 select,
 textarea {
