@@ -6,7 +6,7 @@ body {
     color: black;
 }
 
-h2, h4{
+h1, h2, h4{
     text-align: center;
 }
 
@@ -229,4 +229,75 @@ figure img {
     font-size: 35px;
     color: #394053;
     padding-left: 40px;
+}
+
+/*Storm Center*/
+.stormtittle,
+.stormmain {
+  /*background-color: #eae3ea;*/
+  margin: -0.5px 1rem -0.5px 1rem;
+  padding: 1rem;
+}
+
+.stormtittle {
+  text-align: center;
+}
+
+.stormmain {
+  box-sizing: border-box;
+}
+.form {
+  padding: 0 20px 20px 20px;
+  max-width: 480px;
+  margin: auto;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 0.3em;
+  border: 1px solid #67839b;
+  border-radius: 4px;
+  resize: vertical;
+}
+#commentblock {
+  float: left;
+}
+label,
+fieldset p {
+  padding: 10px 10px 10px 0;
+  display: inline-block;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 14px 20px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #67839b;
+}
+
+.submit-button:hover {
+  background-color: #a7b3a5;
+}
+
+input[type='radio'] {
+  width: auto;
+}
+.radio label {
+  padding: 12px;
+}
+
+fieldset.radio,
+fieldset.storm,
+fieldset.addition {
+  margin-top: 12px;
+}
+
+input:required,
+textarea:required {
+  box-shadow: inset 0px 0px 6px #b56457ea;
 }
