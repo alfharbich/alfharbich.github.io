@@ -1,83 +1,97 @@
-@media only screen and (min-width: 950px) {
+@media only screen and (min-width: 1000px) {
 
   
 
-    header img, .headings {
-        max-width: 12vw;
-        max-height: 12vw;
-        padding-top: 2em;
-        padding-bottom: 3em;
-        padding-left: 2em;
-        vertical-align: center;        
-        margin-right: 10px;
-        
+    .mainmenu li:first-child { 
+        display: none;	
     }
-   
-   
-    nav button {
-        display: none;
-
+    
+    .mainmenu li {
+        display: inline-block;
     }
-
-    nav ul {
-
-        display: inline-flex;
-        border: none;
-        padding-left: 12em;
-    }
-
-    .navigation {
-        list-style: none;
-        margin: 0;
-        padding: 0;
+    
+    .mainmenu ul {
         display: flex;
         flex-direction: row;
-    
     }
 
-    
-    
-    
-    li {
-        display: inline-block;
-        font-size: 1.5rem;
-        padding: .5rem;
-        vertical-align: middle;
-    }
-    .forecast {
-        width: 55%;
-        margin: auto;
+    .mainmenu a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.5em;            
+        width: 100%;
         text-align: center;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        visibility: visible;
+        padding: .75rem;
     }
 
-   h2 {
-       text-align: center;
-   }
    
-    div.imageGallery {
-        
-        display: grid;
-        grid-template-columns: auto auto auto;        
+
+    section.forecast {
+        display: block;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    section.forecast h3 {
+        font-size: 2rem;
+    }
+    
+    section.forecast img {
+        width: 80%;
+    }
+    
+    table {
+        border-collapse: collapse;
+        margin-left: auto;
+        margin-right: auto;
+      }
       
-        
-        
+    table, th, td {
+        border: 1px solid black;
+        font-size: 1rem;
+        padding: 20px;
+      }
+    
+    th {
+        background-color: rgb(92, 192, 184);
+        height: 1.5em;
+        width: 1em;
+        font-size: 2rem;
+        color: rgb(231, 235, 30);
+    
+    }
+
+   
+    
+    article img {
+        width: 20%;
+        float: middle;
+    
+    }
+    
+    .left {
+        display: inline-block;
+    }
+    
+    .contactinfo #map {
+        width: 40%;
+        display: inline-block;
+        margin-left: 200px;
+    
+    }
+    
+
+
+    div.imageGallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     div.imageGallery figure:hover {
-        box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+        box-shadow: .25rem .25rem 1rem black;;
     }
 
-
-    footer aside {
-        display: grid;
-        grid-template-columns: none;
-        margin: 0;
-    }
     
-
+   
 
 }
