@@ -175,17 +175,13 @@ article h3 {
 }
 
 .contactinfo h2 {
+    text-align: center;
     color: #000000;
     font-weight: bold;
     font-size: 17px;
 
 }
 
-
-
-.contact {
-    padding-top: 5px;
-}
 
 #map {
     display: block;
@@ -231,19 +227,18 @@ figure img {
     padding-left: 40px;
 }
 
-/*Storm Center*/
-.stormtittle,
-.stormmain {
-  /*background-color: #eae3ea;*/
-  margin: -0.5px 1rem -0.5px 1rem;
-  padding: 1rem;
+/*STORM CENTER*/
+.storm-title,
+.storm-main {
+ margin: -0.5px 1rem -0.5px 1rem;
+ padding: 1rem;
 }
 
-.stormtittle {
+.storm-title {
   text-align: center;
 }
 
-.stormmain {
+.storm-main {
   box-sizing: border-box;
 }
 .form {
@@ -322,5 +317,5 @@ fieldset.addition {
 
 input:required,
 textarea:required {
-  box-shadow: inset 0px 0px 6px #b56457ea;
+  box-shadow: inset 0px 0px 6px lightskyblue;
 }

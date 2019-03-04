@@ -36,8 +36,8 @@
             </nav>
         </header>
         <main>
-                <h1 class="stormtittle">Storm Center</h1>
-                <main class="stormmain">
+                <h1 class="storm-title">Storm Center</h1>
+             
                   <form class="form" action="thankyou.html" method="get">
                     <fieldset>
                       <legend>Contact Information</legend>
@@ -48,7 +48,7 @@
                       </div>
                       <div>
                         <label for="email">Email</label>
-                        <input id="email" type="email" placeholder="user@email.org" />
+                        <input id="email" type="email" placeholder="your@email.com" />
                       </div>
                       <div>
                         <label for="phone">Phone Number</label>
@@ -94,9 +94,9 @@
                       <div>
                         <label for="region">Region</label>
                         <select id="region" name="region">
-                          <option value="selectregion" disabled selected
-                            >Select Region...</option>                          >
-                          <option value="preston">Preston</option>
+                          <option value="selectregion" disabled selected>
+                            Select Region...</option>
+                           <option value="preston">Preston</option>
                           <option value="sodasprings">Soda Springs</option>
                           <option value="fishhaven">Fish Haven</option>
                         </select>
@@ -107,24 +107,14 @@
                         <div id="radio">
                           <h4><em>Are you in Danger?</em></h4>
                           <label for="response1">Yes</label>
-                          <input
-                            type="radio"
-                            id="response1"
-                            name="response"
-                            value="yes"
-                            checked
-                          />
+                          <input type="radio" id="response1" name="response" value="yes" />                      checked
+                          
             
                           <label for="response2">No</label>
                           <input type="radio" id="response2" name="response" value="no" />
             
                           <label for="response3">Maybe</label>
-                          <input
-                            type="radio"
-                            id="response3"
-                            name="response"
-                            value="maybe"
-                          />
+                          <input type="radio" id="response3" name="response" value="maybe" />
                         </div>
                       </fieldset>
                     </fieldset>
@@ -138,22 +128,19 @@
             
                     <button class="submit-button" type="submit">Submit</button>
                   </form>
-                </main>
+                       
 
-
-        
-
-                    <section class="contactinfo">
-                    <div class="left">
-                        
-                        <div class="contact">
-                            <h4><p>Contact us:</p>
-                             chamberofcommerce@preston.gov</h4>
-                        </div>
-                        
-                    </div>
-                    <img id="map" src="images/preston-map.jpg" alt="Preston Map">
-            </section>
+                <section class="contactinfo">
+                  <div>
+                      
+                    
+                         <p>Contact us:</p>
+                           <p>chamberofcommerce@preston.gov</p>
+                      
+                     
+                  </div>
+                  <img id="map" src="images/preston-map.jpg" alt="Preston Map">
+          </section>
         </main>
         <footer>
             <p class="footer-bottom">&copy;2019 | Alfred Harbich | <a href="http://byui.edu">BYUI - Idaho </a>|</p><p>
