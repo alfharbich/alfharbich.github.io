@@ -1,0 +1,97 @@
+@media only screen and (min-width: 1000px) {
+
+  
+
+    .mainmenu li:first-child { 
+        display: none;	
+    }
+    
+    .mainmenu li {
+        display: inline-block;
+    }
+    
+    .mainmenu ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .mainmenu a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.5em;            
+        width: 100%;
+        text-align: center;
+        padding: .75rem;
+    }
+
+   
+
+    section.forecast {
+        display: block;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    section.forecast h3 {
+        font-size: 2rem;
+    }
+    
+    section.forecast img {
+        width: 80%;
+    }
+    
+    table {
+        border-collapse: collapse;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+    table, th, td {
+        border: 1px solid black;
+        font-size: 1rem;
+        padding: 20px;
+      }
+    
+    th {
+        background-color: rgb(92, 192, 184);
+        height: 1.5em;
+        width: 1em;
+        font-size: 2rem;
+        color: rgb(231, 235, 30);
+    
+    }
+
+   
+    
+    article img {
+        width: 20%;
+        float: middle;
+    
+    }
+    
+    .left {
+        display: inline-block;
+    }
+    
+    .contactinfo #map {
+        width: 40%;
+        display: inline-block;
+        margin-left: 200px;
+    
+    }
+    
+
+
+    div.imageGallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    div.imageGallery figure:hover {
+        box-shadow: .25rem .25rem 1rem black;;
+    }
+
+    
+   
+
+}
