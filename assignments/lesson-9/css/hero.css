@@ -1,7 +1,11 @@
 /* || general styles */
 
 html {
-  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+  font-family: 'Bangers', cursive;
+  /*font-family: 'helvetica neue', helvetica, arial, sans-serif;*/
+  color: yellow;
+  background-color: red;
+
 }
 
 body {
@@ -21,10 +25,13 @@ h1 {
 }
 
 header p {
-  font-size: 1.3rem;
+  
+  font-size: 2.3rem;  
   font-weight: bold;
   text-align: center;
 }
+
+
 
 /* section styles */
 
@@ -35,13 +42,19 @@ section article {
 
 section p {
   margin: 5px 0;
+
 }
 
 section ul {
+  font-family: 'Amatic SC', cursive;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: blue;
   margin-top: 0;
 }
 
 h2 {
+  
   font-size: 2.5rem;
   letter-spacing: -5px;
   margin-bottom: 10px;
