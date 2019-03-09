@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Storm Center</title>
+        <meta charset="utf-8">        
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <link rel="stylesheet" href="css/small-9.css" type="text/css">
+        <link rel="stylesheet" href="css/medium-9.css" type="text/css">
+        <link rel="stylesheet" href="css/large-9.css" type="text/css">
+        <meta name="description" content="Storm Center">
+    </head>
+
+    <body>
+        <header>
+            <img src="images/totoro.jpg" alt="Totoro with umbrella" id="logoimage">
+            <section class="headings">
+                <h2>When you really need to know if you need to put on your Thunderwear!</h2>
+                
+                
+            </section>
+            <nav>
+                <ul class="mainmenu">
+                    <li class="menubutton"><a href="#" title="Menu" onclick="toggleNavMenu()">&#9776;</a></li>
+                    <li><a href="https://alfharbich.github.io">Home</a></li>
+                    <li><a href="preston-9.html">Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href="#">Fish Haven</a></li>
+                    <li><a href="stormcenter.html" class="currentpage">Storm Center</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+                <h1 class="storm-title">Storm Center</h1>
+             
+                  <form class="form" action="thankyou.html" method="get">
+                    <fieldset>
+                      <legend>Contact Information</legend>
+            
+                      <div>
+                        <label for="name">Full Name</label>
+                        <input id="name" type="text" required minlength="5" />
+                      </div>
+                      <div>
+                        <label for="email">Email</label>
+                        <input id="email" type="email" placeholder="your@email.com" />
+                      </div>
+                      <div>
+                        <label for="phone">Phone Number</label>
+                        <input id="phone" type="tel" required />
+                      </div>
+                      <div>
+                        <label for="zipcode">Zip Code</label>
+                        <input id="zipcode" type="number" required />
+                      </div>
+                    </fieldset>
+            
+                    <fieldset class="storm">
+                      <legend>Storm Information</legend>
+                      <div>
+                        <label for="stormdate">Today's Date</label>
+                        <input id="stormdate" type="date" />
+                      </div>
+                      <div>
+                        <p>Storm Type:</p>
+                        <input list="stormdata" name="stormdata" />
+                        <datalist id="stormdata">
+                          <option value="Flash Flood"> </option>
+                          <option value="Hail"> </option>
+                          <option value="Hurricane"> </option>
+                          <option value="Thunderstorm"> </option>
+                          <option value="Tornado"> </option>
+                        </datalist>
+                      </div>
+                      <div>
+                            <label for="stormseverity">Storm Rating (1 to 10):</label>
+                            <input
+                              id="stormseverity"
+                              type="range"
+                              value="5"
+                              min="1"
+                              max="10"
+                              step="1"
+                              oninput="adjustRating(this.value)"
+                              onchange="adjustRating(this.value)" class="slider">
+                          
+                        <span id="ratingvalue">5</span>
+                      </div>
+                      <div>
+                        <label for="region">Region</label>
+                        <select id="region" name="region">
+                          <option value="selectregion" disabled selected>
+                            Select Region...</option>
+                           <option value="preston">Preston</option>
+                          <option value="sodasprings">Soda Springs</option>
+                          <option value="fishhaven">Fish Haven</option>
+                        </select>
+                      </div>
+            
+                      <fieldset class="radio">
+                        <legend>Danger Report</legend>
+                        <div id="radio">
+                          <h4><em>Are you in Danger?</em></h4>
+                          <label for="response1">Yes</label>
+                          <input type="radio" id="response1" name="response" value="yes" />                       
+            
+                          <label for="response2">No</label>
+                          <input type="radio" id="response2" name="response" value="no" />
+            
+                          <label for="response3">Maybe</label>
+                          <input type="radio" id="response3" name="response" value="maybe" />
+                        </div>
+                      </fieldset>
+                    </fieldset>
+            
+                    <fieldset class="addition">
+                      <legend>Additional Information</legend>
+                      <label for="commentblock"><em>Enter relevant Information</em></label>
+                      <textarea id="commentblock" name="block" rows="5" required>
+                      </textarea>
+                    </fieldset>
+            
+                    <button class="submit-button" type="submit">Submit</button>
+                  </form>
+                       
+
+                <section class="contactinfo">
+                  <div>
+                      
+                    
+                         <p>Contact us:</p>
+                           <p>chamberofcommerce@preston.gov</p>
+                      
+                     
+                  </div>
+                  <img id="map" src="images/preston-map.jpg" alt="Preston Map">
+          </section>
+        </main>
+        <footer>
+            <p class="footer-bottom">&copy;2019 | Alfred Harbich | <a href="http://byui.edu">BYUI - Idaho </a>|</p><p>
+            <span id="current-date"></span></p>  
+        </footer>
+        <script src="scripts/current-date.js"></script>
+        <script src="scripts/burger.js"></script>
+        <script src="scripts/windchill.js"></script>
+        <script src="scripts/storm.js"></script>
+    </body>
+</html>

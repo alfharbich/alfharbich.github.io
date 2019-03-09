@@ -1,7 +1,14 @@
 @media only screen and (min-width: 1000px) {
 
   
-
+    .headings {
+        line-height: 0.75rem;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    
     .mainmenu li:first-child { 
         display: none;	
     }
@@ -17,7 +24,7 @@
 
     .mainmenu a {
         text-decoration: none;
-        color: #ffffff;
+        color: #241c0c;
         font-size: 1.5em;            
         width: 100%;
         text-align: center;
@@ -65,7 +72,7 @@
     
     article img {
         width: 20%;
-        float: middle;
+        
     
     }
     

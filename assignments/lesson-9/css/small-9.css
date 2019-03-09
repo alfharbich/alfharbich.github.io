@@ -20,8 +20,9 @@ header {
 }
 
 header img, .headings {
-    display: inline-flex;
+    display: flex;
     padding: 10px;
+   
 }
 
 .headings .motto {
@@ -38,15 +39,9 @@ header img, .headings {
 .headings h2 {
     font-size: 35px;
     font-family: Parisienne;
-    color: #bbcccc;
-    margin-bottom: 1em;
+    color: #ccc0bb;
+    margin-bottom: 2em;
     text-shadow: 3px 3px 5px lightslategray;
-}
-
-.headings {
-    line-height: 0.75rem;
-    display: flex;
-    flex-direction: column;
 }
 
 .currentpage {
@@ -58,8 +53,9 @@ header img, .headings {
 /* NAVIGATION */
 
 nav {
-    background-color: cyan;
+    background-color: rgb(69, 241, 241);
     font-size: 1rem;
+    
     margin: 0 auto;
     padding: 0;
     display: flex;
@@ -252,21 +248,12 @@ figure img {
 }
 
 .slider {
-    -webkit-appearance: none;
+   
     appearance: none;
     width: 95%;
     height: 25px;
     background-color: rgba(0,0,0,0.1);
 
-
-
-}
-.slider::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 25px;
-    height: 25px;
-    background: #0C0E94;
 }
 
 
