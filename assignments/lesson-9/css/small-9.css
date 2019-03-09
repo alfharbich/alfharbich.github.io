@@ -25,16 +25,18 @@ header img, .headings {
    
 }
 
-.headings .motto {
+.headings {
     color: #bbcccc;
     font-family: cursive;
-    font-size: 29px;   
+    font-size: 29px;
+      
 }
 
 #logoimage {
     width: 15%;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 .headings h2 {
     font-size: 35px;
@@ -43,6 +45,8 @@ header img, .headings {
     margin-bottom: 2em;
     text-shadow: 3px 3px 5px lightslategray;
 }
+
+
 
 .currentpage {
 

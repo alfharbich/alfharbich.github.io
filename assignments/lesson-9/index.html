@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
-        <title>Thank Your!</title>
+        <title>Preston Weather</title>
         <meta charset="utf-8">        
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet">
@@ -11,25 +11,24 @@
         <link rel="stylesheet" href="css/small-9.css" type="text/css">
         <link rel="stylesheet" href="css/medium-9.css" type="text/css">
         <link rel="stylesheet" href="css/large-9.css" type="text/css">
-        <meta name="description" content="Thank You">
+        <meta name="description" content="Preston Happenings">
     </head>
 
     <body>
         <header>
-            <img src="images/totoro.jpg" alt="Totoro with umbrella" id="logoimage">
+            <img src="images/totoro.jpg" alt="preston sign" id="logoimage">
             <section class="headings">
-                <h2>
-                    When you really need to know if you need to put on your Thunderwear!
-
+                <h2>The Weather People
+                <p class="moto">For when you really need to know if you need to put on your Thunderwear!</p>
                 </h2>
-                
                
+            
             </section>
             <nav>
                 <ul class="mainmenu">
                     <li class="menubutton"><a href="#" title="Menu" onclick="toggleNavMenu()">&#9776;</a></li>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="preston-9.html">Preston</a></li>
+                    <li><a href="preston-9.html" class="currentpage">Preston</a></li>
                     <li><a href="#">Soda Springs</a></li>
                     <li><a href="#">Fish Haven</a></li>
                     <li><a href="stormcenter.html">Storm Center</a></li>
@@ -37,24 +36,19 @@
                 </ul>
             </nav>
         </header>
-    <main>
-    <h1>Thank you for your report. Please stay tunded for further updates!</h1>
-    
-    <section class="contactinfo">
-        <div>
-            
-          
-               <p>Contact us:</p>
-                 <p>chamberofcommerce@preston.gov</p>
-            
-            
-        </div>
-        <img id="map" src="images/preston-map.jpg" alt="Preston Map">
-</section>
+        <main>
 
-
-
-    </main>
+         <section class="contactinfo">
+                    <div>                     
+                      
+                           <p>Contact us:</p>
+                             <p>chamberofcommerce@preston.gov</p>
+                        
+                        
+                    </div>
+                    <img id="map" src="images/preston-map.jpg" alt="Preston Map">
+            </section>
+        </main>
         <footer>
             <p class="footer-bottom">&copy;2019 | Alfred Harbich | <a href="http://byui.edu">BYUI - Idaho </a>|</p><p>
             <span id="current-date"></span></p>  
@@ -62,5 +56,7 @@
         <script src="scripts/current-date.js"></script>
         <script src="scripts/burger.js"></script>
         <script src="scripts/windchill.js"></script>
+        <script src="scripts/storm.js"></script>
     </body>
 </html>
+
