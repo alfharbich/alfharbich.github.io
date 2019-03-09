@@ -1,6 +1,6 @@
 
 body {
-    background-color: #E0FFFF;
+    background-color: rgb(190, 238, 212);
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 16px;
     color: black;
@@ -40,6 +40,7 @@ header img, .headings {
     font-size: 35px;
     font-family: Parisienne;
     color: #ccc0bb;
+    margin-top: -5em;
     margin-bottom: 2em;
     text-shadow: 3px 3px 5px lightslategray;
 }
@@ -306,4 +307,54 @@ fieldset.addition {
 input:required,
 textarea:required {
   box-shadow: inset 0px 0px 6px lightskyblue;
+}
+
+/*Town JSON*/
+#townjson {
+    display: grid;
+    grid-gap: 30px;
+    line-height: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#townjson div {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 20px;
+    background-color: turquoise;
+    padding-top: 7px;
+}
+
+#townjson div:nth-of-type(1) {
+    order: 3;
+}
+
+#townjson div:nth-of-type(2) {
+    order: 1;
+}
+
+#townjson div:nth-of-type(3) {
+    order: 2;
+}
+
+#townjson h5 {
+    text-align: center;
+    font-size: 4vw;
+}
+
+#townjson em {
+    text-align: center;
+    font-size: 7pt;
+}
+
+#townjson img {
+    width: 300px;
+}
+
+.home {
+    text-align: center;
+    color: black;
+    font-size: 8vw;
+    font-weight: bold;
 }
