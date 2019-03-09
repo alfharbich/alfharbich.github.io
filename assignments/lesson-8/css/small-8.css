@@ -257,8 +257,7 @@ figure img {
 
 
 }
-.slider:/*:-webkit-slider-thumb {
-    -webkit-appearance: none;*/ {
+.slider: {
     appearance: none;
     width: 25px;
     height: 25px;
