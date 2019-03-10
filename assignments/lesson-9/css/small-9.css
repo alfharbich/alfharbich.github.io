@@ -41,7 +41,7 @@ header img, .headings {
     font-size: 39px;
     font-family: Parisienne;
     color: #ccc0bb;
-    margin-top: -3em;
+    margin-top: -2em;
     margin-bottom: 2em;
     margin-left: 4em;
     text-shadow: 3px 3px 5px lightslategray;
@@ -49,7 +49,7 @@ header img, .headings {
 
 .headings .motto {
     font-size: 27px;
-    font-family: cursive;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
     color: lightcyan;
     margin-top: -2em;
     margin-bottom: 2em;
