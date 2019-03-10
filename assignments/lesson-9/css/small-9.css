@@ -351,13 +351,17 @@ textarea:required {
 }
 
 #townjson h5 {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: darkred;
     text-align: center;
     font-size: 4vw;
+    margin-top: 2em;
 }
 
-#townjson em {
+#townjson em {    
     text-align: center;
-    font-size: 7pt;
+    color: darkgoldenrod;
+    
 }
 
 #townjson img {

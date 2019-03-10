@@ -5,52 +5,52 @@ request.open('GET', requestURL);
 request.responseType = 'json';
 request.send();
 request.onload = function() {
-  var townInfo = request.response;
-  showInfo(townInfo);
+  var townBuild = request.response;
+  townInfo(townBuild);
 }
 
-function showInfo(jsonObj) {
+function townInfo(jsonObj) {
   var info = jsonObj['towns'];
 
   for (var i = 0; i < info.length; i++) {
     if (i === 0 || i === 2 || i === 3 || i === 6) {
       continue;
     }
-    var myArticle = document.createElement('div');
-    var myName = document.createElement('h5');
-    var myMotto = document.createElement('em');
-    var myYear = document.createElement('p');
-    var myPopulation = document.createElement('p');
-    var myRain = document.createElement('p');
-    var myPic = document.createElement('img');
+    var townArticle = document.createElement('div');
+    var townName = document.createElement('h5');
+    var townMotto = document.createElement('em');
+    var yearFounded = document.createElement('p');
+    var currentPopulation = document.createElement('p');
+    var averageRain = document.createElement('p');
+    var townPic = document.createElement('img');
 
-    myName.textContent = info[i].name;
-    myMotto.textContent = info[i].motto;
-    myYear.textContent = 'Year Founded: ' + info[i].yearFounded;
-    myPopulation.textContent = 'Current Population: ' + info[i].currentPopulation;
-    myRain.textContent = 'Average Rainfall: ' + info[i].averageRainfall;
+    townName.textContent = info[i].name;
+    townMotto.textContent = info[i].motto;
+    yearFounded.textContent = 'Year Founded: ' + info[i].yearFounded;
+    currentPopulation.textContent = 'Current Population: ' + info[i].currentPopulation;
+    averageRain.textContent = 'Average Rainfall: ' + info[i].averageRainfall;
 
-    myArticle.appendChild(myName);
-    myArticle.appendChild(myMotto);
-    myArticle.appendChild(myYear);
-    myArticle.appendChild(myPopulation);
-    myArticle.appendChild(myRain);
-    myArticle.appendChild(myPic);
+    townArticle.appendChild(townName);
+    townArticle.appendChild(townMotto);
+    townArticle.appendChild(yearFounded);
+    townArticle.appendChild(currentPopulation);
+    townArticle.appendChild(averageRain);
+    townArticle.appendChild(townPic);
 
     if (i === 1)
-      myPic.src = 'images/hiking-trail-400.jpg'
-      myPic.setAttribute('class', 'homepic1');
-      myPic.setAttribute('alt', 'Hiking Trail');
+      townPic.src = 'images/hiking-trail-400.jpg'
+      townPic.setAttribute('class', 'homepic1');
+      townPic.setAttribute('alt', 'Hiking Trail');
     if (i === 4)
-      myPic.src = 'images/cloudy-sunset-400.jpg'
-      myPic.setAttribute('class', 'homepic2');
-      myPic.setAttribute('alt', 'Sunset');
+      townPic.src = 'images/cloudy-sunset-400.jpg'
+      townPic.setAttribute('class', 'homepic2');
+      townPic.setAttribute('alt', 'Sunset');
     if (i === 5)
-      myPic.src = 'images/rainbow-400.jpg'
-      myPic.setAttribute('class', 'homepic3');
-      myPic.setAttribute('alt', 'Rainbow');
+      townPic.src = 'images/rainbow-400.jpg'
+      townPic.setAttribute('class', 'homepic3');
+      townPic.setAttribute('alt', 'Rainbow');
 
 
-      main.appendChild(myArticle);
+      main.appendChild(townArticle);
   }
 }
