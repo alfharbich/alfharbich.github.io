@@ -1,7 +1,13 @@
 @media only screen and (min-width: 600px) {
 
-
+ #logoimage {
+      width: 25%;
+      display: flex;
+      align-items: center;
+    }
            
+
+
 article img {
     width: 40%;
     float: right;

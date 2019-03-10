@@ -1,6 +1,13 @@
 @media only screen and (min-width: 1000px) {
 
-  
+    #logoimage {
+        width: 11%;
+        display: flex;
+        align-items: center;
+    }
+    
+    
+    
     .headings {
         line-height: 0.75rem;
         display: flex;
