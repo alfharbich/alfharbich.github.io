@@ -40,15 +40,15 @@ function showInfo(jsonObj) {
     if (i === 1)
       myPic.src = 'images/hiking-trail-400.jpg'
       myPic.setAttribute('class', 'homepic1');
-      myPic.setAttribute('alt', 'Fish Haven Image');
+      myPic.setAttribute('alt', 'Hiking Trail');
     if (i === 4)
       myPic.src = 'images/cloudy-sunset-400.jpg'
       myPic.setAttribute('class', 'homepic2');
-      myPic.setAttribute('alt', 'Preston Image');
+      myPic.setAttribute('alt', 'Sunset');
     if (i === 5)
       myPic.src = 'images/rainbow-400.jpg'
       myPic.setAttribute('class', 'homepic3');
-      myPic.setAttribute('alt', 'Soda Springs Image');
+      myPic.setAttribute('alt', 'Rainbow');
 
 
       main.appendChild(myArticle);

@@ -25,24 +25,36 @@ header img, .headings {
    
 }
 
-.headings .motto {
-    color: #bbcccc;
-    font-family: cursive;
-    font-size: 29px;   
-}
+
 
 #logoimage {
     width: 15%;
     display: flex;
     align-items: center;
 }
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
 .headings h2 {
-    font-size: 35px;
+    font-size: 39px;
     font-family: Parisienne;
     color: #ccc0bb;
-    margin-top: -5em;
+    margin-top: -3em;
     margin-bottom: 2em;
+    margin-left: 4em;
     text-shadow: 3px 3px 5px lightslategray;
+}
+
+.headings .motto {
+    font-size: 27px;
+    font-family: cursive;
+    color: lightcyan;
+    margin-top: -2em;
+    margin-bottom: 2em;
+    margin-left: 4em;
+    text-shadow: 3px 3px 5px lightslategray;  
 }
 
 
