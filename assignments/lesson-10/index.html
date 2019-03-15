@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>The Weather People</title>
+        <meta charset="utf-8">        
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <link rel="stylesheet" href="css/small-10.css" type="text/css">
+        <link rel="stylesheet" href="css/medium-10.css" type="text/css">
+        <link rel="stylesheet" href="css/large-10.css" type="text/css">
+        <meta name="description" content="The Weather People">
+    </head>
+
+    <body>
+        <header>
+                <img src="images/totoro.jpg" alt="Totoro with umbrella" id="logoimage">
+                <section class="headings">
+                    <h2>The weather people</h2>
+                    
+                    <div class="motto"><p>We'll tell you when to put on your thunderwear!</p></div>
+                                       
+                    
+                </section>
+            <nav>
+                <ul class="mainmenu">
+                    <li class="menubutton"><a href="#" title="Menu" onclick="toggleNavMenu()">&#9776;</a></li>
+                    <li><a href="index.html" class="currentpage">Home</a></li>
+                    <li><a href="preston-10.html">Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href="#">Fish Haven</a></li>
+                    <li><a href="stormcenter.html">Storm Center</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="townjson">
+
+
+        </main>
+        <footer>
+            <section class="contactinfo">
+                <div>                     
+                  
+                       <p>Contact us:</p>
+                         <p>chamberofcommerce@preston.gov</p>
+                    
+                    
+                </div>
+                <img id="map" src="images/preston-map.jpg" alt="Preston Map">
+        </section>
+    
+    
+        <p class="footer-bottom">&copy;2019 | Alfred Harbich | <a href="http://byui.edu">BYUI - Idaho </a>|</p><p>
+        <span id="current-date"></span></p> 
+        </footer>
+        <script src="scripts/current-date.js"></script>
+        <script src="scripts/burger.js"></script>
+        <script src="scripts/windchill.js"></script>
+        <script src="scripts/storm.js"></script>
+        <script src="scripts/json.js"></script>
+    </body>
+</html>
+

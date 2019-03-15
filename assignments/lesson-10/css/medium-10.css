@@ -1,0 +1,59 @@
+@media only screen and (min-width: 600px) {
+
+ #logoimage {
+      width: 25%;
+      display: flex;
+      align-items: center;
+    }
+           
+
+
+article img {
+    width: 40%;
+    float: right;
+
+}
+
+.left {
+    display: inline-block;
+}
+
+.contactinfo #map {
+    width: 40%;
+    display: inline-block;
+    margin-left: 200px;
+
+}
+
+
+
+/* GALLERY */
+
+div.imageGallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/*Town Info*/
+
+#townjson {
+    display: flex;
+    flex-flow: row wrap; 
+}
+
+#townjson div {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#townjson h5 {
+    font-size: 18pt;
+    line-height: 30px;
+}
+
+#townjson p {
+    font-size: 14pt;
+    line-height: 25px;
+}
+
+}

@@ -1,0 +1,377 @@
+
+body {
+    background-color: rgb(190, 238, 212);
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+h1, h2, h4{
+    text-align: center;
+}
+
+
+
+/* HEADER */
+
+header {
+    background-color: #6682ff;
+    text-align: center;
+}
+
+header img, .headings {
+    display: flex;
+    padding: 10px;
+   
+}
+
+
+
+#logoimage {
+    width: 33%;
+    display: flex;
+    align-items: center;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+.headings h2 {
+    font-size: 39px;
+    font-family: Parisienne;
+    color: #ccc0bb;
+    margin-top: -2em;
+    margin-bottom: 2em;
+    margin-left: 4em;
+    text-shadow: 3px 3px 5px lightslategray;
+}
+
+.headings .motto {
+    font-size: 27px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: lightcyan;
+    margin-top: -2em;
+    margin-bottom: 2em;
+    margin-left: 4em;
+    text-shadow: 3px 3px 5px lightslategray;  
+}
+
+
+.currentpage {
+
+    color: whitesmoke;
+    background-color: #6682ff;
+   }
+
+/* NAVIGATION */
+
+nav {
+    background-color: rgb(69, 241, 241);
+    font-size: 1rem;
+    
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainmenu {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.mainmenu li:first-child {
+    display: block;
+}
+
+.mainmenu li {
+    display: none;
+}
+
+.mainmenu a {
+    display: block; 
+    color: black;
+    padding: .75rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.mainmenu .currentpage {
+    color: #394053;
+}
+
+.mainmenu a:hover {
+    color: whitesmoke;
+    background-color: #006647;
+}
+
+.responsive li { 
+    display: block; 
+}
+
+/* MAIN */
+
+section {
+    padding: 10px;
+}
+
+.firstsection h2, article h2 {
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: 3px 3px 5px #777;
+    color: #333333;
+}
+
+.herodiv {
+    margin: auto;
+    position: relative;
+}
+
+main picture.heroimg img {
+    width: 100%;
+}
+
+.weathersummary {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+	border: 1px solid #000;
+	padding: 7px;
+    box-shadow: 0 0 30px #fff;
+    line-height: 2px;
+    font-weight: bold;
+}
+
+.weathersummary h3 {
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+.forecast {
+    display: none;
+}
+
+article img {
+    width: 100%;
+    box-shadow: 0 0 30px #fff;
+}
+
+article {
+    background-color: aquamarine;
+    border: 1px solid green;
+    padding: 20px;
+    overflow: auto;
+}
+
+article h2 {
+    text-align: left;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    color: #394053;
+}
+
+article h3 {
+    margin-top: 0;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: lightseagreen;
+    color: darkblue;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    padding-bottom: 30px;
+    line-height: 5px;    
+}
+
+
+.contactinfo {
+    background-color:rgb(74, 186, 214);
+    line-height: 2px;
+    overflow: auto;
+}
+
+.contactinfo h2 {
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+
+
+#map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border-style: inset;
+}
+
+/* GALLERY */
+
+div.imageGallery {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+figure img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.box {
+    padding: 2px;
+    box-shadow: 0 0 10px #777777;
+}
+
+.gallerytitle {
+    font-family: "Secular One", Arial, sans-serif;
+    font-size: 35px;
+    color: #394053;
+    padding-left: 40px;
+}
+
+/*STORM CENTER*/
+.storm-title,
+.storm-main {
+ margin: -0.5px 1rem -0.5px 1rem;
+ padding: 1rem;
+}
+
+.storm-title {
+  text-align: center;
+}
+
+.storm-main {
+  box-sizing: border-box;
+}
+.form {
+  padding: 0 20px 20px 20px;
+  max-width: 480px;
+  margin: auto;
+}
+
+.slidecontainer {
+    width: 100%
+}
+
+.slider {
+   
+    appearance: none;
+    width: 95%;
+    height: 25px;
+    background-color: rgba(0,0,0,0.1);
+
+}
+
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 0.3em;
+  border: 1px solid #67839b;
+  border-radius: 4px;
+  resize: vertical;
+}
+#commentblock {
+  float: left;
+}
+label,
+fieldset p {
+  padding: 10px 10px 10px 0;
+  display: inline-block;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 14px 20px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #67839b;
+}
+
+.submit-button:hover {
+  background-color: #a7b3a5;
+}
+
+input[type='radio'] {
+  width: auto;
+}
+.radio label {
+  padding: 12px;
+}
+
+fieldset.radio,
+fieldset.storm,
+fieldset.addition {
+  margin-top: 12px;
+}
+
+input:required,
+textarea:required {
+  box-shadow: inset 0px 0px 6px lightskyblue;
+}
+
+/*Town JSON*/
+#townjson {
+    display: grid;
+    grid-gap: 30px;
+    line-height: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#townjson div {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 20px;
+    background-color: turquoise;
+    padding-top: 7px;
+}
+
+#townjson div:nth-of-type(1) {
+    order: 3;
+}
+
+#townjson div:nth-of-type(2) {
+    order: 1;
+}
+
+#townjson div:nth-of-type(3) {
+    order: 2;
+}
+
+#townjson h5 {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: darkred;
+    text-align: center;
+    font-size: 4vw;
+    margin-top: 2em;
+}
+
+#townjson em {    
+    text-align: center;
+    color: darkgoldenrod;
+    
+}
+
+#townjson img {
+    width: 300px;
+}
+
+.home {
+    text-align: center;
+    color: black;
+    font-size: 8vw;
+    font-weight: bold;
+}

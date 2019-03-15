@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Preston Weather</title>
+        <meta charset="utf-8">        
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <link rel="stylesheet" href="css/small-10.css" type="text/css">
+        <link rel="stylesheet" href="css/medium-10.css" type="text/css">
+        <link rel="stylesheet" href="css/large-10.css" type="text/css">
+        <meta name="description" content="Preston Happenings">
+    </head>
+
+    <body>
+            <header>
+                    <img src="images/totoro.jpg" alt="Totoro with umbrella" id="logoimage">
+                    <section class="headings">
+                        <h2>The weather people</h2>
+                        
+                        <div class="motto"><p>We'll tell you when to put on your thunderwear!</p></div>
+                                           
+                        
+                    </section>
+            <nav>
+                <ul class="mainmenu">
+                    <li class="menubutton"><a href="#" title="Menu" onclick="toggleNavMenu()">&#9776;</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="preston-10.html" class="currentpage">Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href="#">Fish Haven</a></li>
+                    <li><a href="stormcenter.html">Storm Center</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="firstsection">
+                <h2>Preston</h2>
+                <div class="herodiv">
+                    <picture class="heroimg">
+                        <source media="(max-width: 500px)" srcset="images/franklin-200.jpg">
+                        <source media="(max-width: 600px)" srcset="images/franklin-400.jpg">
+                        <source media="(max-width: 1000px)" srcset="images/franklin-800.jpg">
+                        <img src="images/franklin-800.jpg" alt="Franklin Hero">
+                    </picture>
+                    <section class="weathersummary">
+                        <p>Currently:<span id="currently"> Cloudy</span></p>
+                        <p>Temperature:<span id="currentTemp"> 55</span>&deg;F</p>
+                        <p>Humidity:<span id="humidity"> 69%</span></p>
+                        <p>Precipitation:<span id="percipitation"> 0</span> in</p>                      
+                        <p>Wind Speed:<span id="windSpeed"> 9</span> mph</p>
+                        <p>Wind Chill:&nbsp;<span id="chillFactor"> </span> &deg;F</p>
+                      </section>
+                </div>
+            </section>
+            <section class="forecast">
+                <h3>5 Day Forecast</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th><span id="day1">Wed</span></th>
+                            <th><span id="day2">Thu</span></th>
+                            <th><span id="day3">Fri</span></th>
+                            <th><span id="day4">Sat</span></th>
+                            <th><span id="day5">Sun</span></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>89&deg;F</td>
+                            <td>87&deg;F</td>
+                            <td>78&deg;F</td>
+                            <td>75&deg;F</td>
+                            <td>72&deg;F</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section class="article">
+                <article>
+                    <h3>Recent Discovery in Idaho</h3>
+                        
+                        
+                    <img class="articleimage" src="images/mountain-canyon-200.jpg" alt="Mountain Canyon">
+                    
+                        <p>From <a href="https://kids.nationalgeographic.com/explore/states/idaho/#idaho-ranch.jpg">National Geographic Kids</a>: Archaeologists recently made a huge discovery in Idaho:
+                         a blade-like tool made of rock. What’s the big deal? It turns out the blade 
+                         is more than 13,500 years old, proving that people have lived in the area at least a few 
+                         thousand years longer than experts previously thought. Thousands of years after the blade’s 
+                         makers lived, other Native American tribes including the Nez Perce, Coeur d’Alene, Kootenai, 
+                         Shoshone, Bannock, and Blackfeet lived on the land.</p>
+
+                         <p>The first non-native people known to have reached this land were American explorers 
+                         Meriwether Lewis and William Clark, who crossed through in 1805. Both the United States 
+                         and Great Britain claimed the region until 1846, when the two governments signed the Oregon Treaty, 
+                         transferring ownership to America. The land became part of the Oregon Territory, then part of the 
+                         Washington Territory. But once settlers discovered gold there in 1860, thousands rushed in, and in 1863 
+                         Idaho became its own territory. Seventeen years later, in 1890, Idaho became the 43rd state.
+                        The Coeur d’Alene, Kootenai, Nez Perce, Shoshone-Paiute, and Shoshone-Bannock 
+                        tribes still live in Idaho today.
+                </article>      
+            </section>
+            </main>
+            <footer>
+            <section class="contactinfo">
+                    <div>                     
+                      
+                           <p>Contact us:</p>
+                             <p>chamberofcommerce@preston.gov</p>
+                        
+                        
+                    </div>
+                    <img id="map" src="images/preston-map.jpg" alt="Preston Map">
+            </section>
+        
+        
+            <p class="footer-bottom">&copy;2019 | Alfred Harbich | <a href="http://byui.edu">BYUI - Idaho </a>|</p><p>
+            <span id="current-date"></span></p>  
+        </footer>
+        <script src="scripts/current-date.js"></script>
+        <script src="scripts/burger.js"></script>
+        <script src="scripts/windchill.js"></script>
+        <script src="scripts/storm.js"></script>
+    </body>
+</html>
