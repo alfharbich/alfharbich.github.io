@@ -92,7 +92,7 @@
     .contactinfo #map {
         width: 40%;
         display: inline-block;
-        margin-left: 200px;
+        margin-left: -3%;
     
     }
     
@@ -113,7 +113,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 3%;
     max-width: 900px;
-    margin-left: 325px;
+    margin-left: 12%;
     margin-bottom: 200px;
 }
 
