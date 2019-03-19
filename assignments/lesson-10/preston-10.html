@@ -47,36 +47,43 @@
                         <img src="images/franklin-800.jpg" alt="Franklin Hero">
                     </picture>
                     <section class="weathersummary">
-                        <p>Currently:<span id="currently"> Cloudy</span></p>
-                        <p>Temperature:<span id="currentTemp"> 55</span>&deg;F</p>
-                        <p>Humidity:<span id="humidity"> 69%</span></p>
-                        <p>Precipitation:<span id="percipitation"> 0</span> in</p>                      
-                        <p>Wind Speed:<span id="windSpeed"> 9</span> mph</p>
+                        <p>Currently:<span id="currently"> </span></p>
+                        <p>Temperature:<span id="currentTemp"> </span>&deg;F</p>
                         <p>Wind Chill:&nbsp;<span id="chillFactor"> </span> &deg;F</p>
+                        <p>Humidity:<span id="humidity"></span></p>                                          
+                        <p>Wind Speed:<span id="windSpeed"></span> mph</p>
+                        
                       </section>
                 </div>
             </section>
             <section class="forecast">
                 <h3>5 Day Forecast</h3>
                 <table>
-                    <thead>
-                        <tr>
-                            <th><span id="day1">Wed</span></th>
-                            <th><span id="day2">Thu</span></th>
-                            <th><span id="day3">Fri</span></th>
-                            <th><span id="day4">Sat</span></th>
-                            <th><span id="day5">Sun</span></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>89&deg;F</td>
-                            <td>87&deg;F</td>
-                            <td>78&deg;F</td>
-                            <td>75&deg;F</td>
-                            <td>72&deg;F</td>
-                        </tr>
-                    </tbody>
+                    
+                    <table class="five-day">
+                        <tr class="five-day-td">
+                            <td> <img id= "icon1"  src="#" alt="Weather Icon" /> </td>
+                            <td> <img id= "icon2"   src="#" alt="Weather Icon" /> </td>
+                            <td> <img id= "icon3"  src="#"  alt="Weather Icon" /> </td>
+                            <td> <img id= "icon4"  src="#"  alt="Weather Icon" /> </td>
+                            <td> <img id= "icon5"  src="#" alt="Weather Icon" /> </td>
+                          </tr>
+                          <tr class="five-day-degree">
+                              <td><span id = 'temp1'></span> &deg;F</td>
+                              <td><span id = 'temp2'></span> &deg;F</td>
+                              <td><span id = 'temp3'></span> &deg;F</td>
+                              <td><span id = 'temp4'></span> &deg;F</td>
+                              <td><span id = 'temp5'></span> &deg;F</td>
+                            </tr>
+                      <tr class="five-day-th">
+                        <th><span id = 'day1'></span></th>
+                        <th><span id = 'day2'></span></th>
+                        <th><span id = 'day3'></span></th>
+                        <th><span id = 'day4'></span></th>
+                        <th><span id = 'day5'></span></th>
+                      </tr>
+                      <div class="openweather">Weather information provided by <a href="https://openweathermap.org">OpenWeatherMap.org</a></a></div>
+                    
                 </table>
             </section>
             <section class="article">
@@ -124,5 +131,8 @@
         <script src="scripts/burger.js"></script>
         <script src="scripts/windchill.js"></script>
         <script src="scripts/storm.js"></script>
+        <script src="scripts/summary.js"></script>
+        <script src="scripts/fiveday.js"></script>
+        
     </body>
 </html>
