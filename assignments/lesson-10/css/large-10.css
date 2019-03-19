@@ -62,51 +62,45 @@
         margin-left: auto;
         margin-right: auto;
       }
-     
+   
     table, th, td {
         
         border: 1px solid black;
         font-size: 1rem;
         padding: 20px;
       }
-    
-    th {
-        background-color: rgb(92, 192, 184);
-        height: 1.5em;
-        width: 1em;
-        font-size: 2rem;
-        color: rgb(231, 235, 30);
-    
-    }
-
+  
     /*Five Day*/
 
-.five-day {
+.fiveday {
     display: flex;
     justify-content: center;
     background-color: lightcyan;
-    width: 100%;
+    width: 75%;
     height: auto;
     padding: 1em;
   }
 
  
-  .five-day-th th {
+  .fiveday-td {
    
     background-color: cyan;
+    height: 1.5em;
+    width: 1em;
     padding: 1em;
-    font-size: 1.2em;
-    color: maroon;
+    font-size: 2em;
+    
+    
   }
 
-  .five-day-td,
-  .five-day-degree {
+  .fiveday-td,
+  .fiveday-temp {
     text-align: center;
     font-size: 1.5em;
   }
 
-  .five-day-td img {
-    width: 50px;
+  .fiveday-td img {
+    width: 25px;
     padding-top: 10px;
   }
   article {   

@@ -173,6 +173,18 @@ article h3 {
     margin-top: 0;
 }
 
+.festival {
+    border: 1px;
+    padding: 20px;
+    overflow: auto;
+}
+
+.pedro {
+    width: 15%;
+   
+
+}
+
 /* FOOTER */
 
 footer {

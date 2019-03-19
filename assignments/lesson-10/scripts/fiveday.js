@@ -1,28 +1,4 @@
 
-let weatherRequest = new XMLHttpRequest()
-weatherRequest.open(
-  'GET',
-  'https://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=01882f9d04643164dd726eac6ad8ca70&units=imperial',
-  true
-)
-weatherRequest.send()
-weatherRequest.onload = function() {
-  let weatherData = JSON.parse(weatherRequest.responseText)
-  console.log(weatherData)
-
-  document.getElementById('currenttemp').innerHTML = Math.round( weatherData.main.temp)
-  document.getElementById('discription').innerHTML =weatherData.weather[0].description
-  document.getElementById('humidity').innerHTML = weatherData.main.humidity
-  document.getElementById('windspeed').innerHTML = weatherData.wind.speed
-  var tempF = parseFloat(document.getElementById('currenttemp').innerHTML)
-  var speed = parseFloat(document.getElementById('windspeed').innerHTML)
-
-  var windchill = 35.74 +  0.6215 * tempF - 35.75 * Math.pow(speed, 0.16) +  0.4275 * tempF * Math.pow(speed, 0.16)
-
-  windchill = Math.round(windchill)
-  document.getElementById('windchill').innerHTML = windchill
-}
-
 var weatherForecast = new XMLHttpRequest()
 weatherForecast.open(
   'GET',
