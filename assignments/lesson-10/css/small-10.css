@@ -136,6 +136,7 @@ main picture.heroimg img {
     left: 32px;
 	border: 1px solid #000;
 	padding: 7px;
+    background-color: lightskyblue;
     box-shadow: 0 0 30px #fff;
     line-height: 2px;
     font-weight: bold;
