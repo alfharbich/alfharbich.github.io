@@ -1,12 +1,12 @@
 @media only screen and (min-width: 992px) {
 
-    #logoimage {
+  /*  #logoimage {
         width: 7%;
         display: flex;
         align-items: center;
     }
     
-    
+      */
     
     .headings {
         line-height: 0.75rem;
@@ -14,7 +14,12 @@
         flex-direction: column;
     
     }
-    
+
+    .motto {
+        margin-top: 5px;
+        margin-left: 8px;
+    }
+  
     
     .mainmenu li:first-child { 
         display: none;	
@@ -138,17 +143,30 @@
         box-shadow: .25rem .25rem 1rem black;;
     }
 
+    #map {
+        float: center;
+        width: auto;
+        
+        
+        /*display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        
+        border-style: inset;*/
+    }
+
 /*Town JSON*/
 #townjson {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 3%;
-    max-width: 900px;
+    max-width: 1200px;
     margin-left: 12%;
-    margin-bottom: 200px;
+    margin-bottom: 30px;
 }
 
-
+/*
 
 #townjson h5 {
     padding-top: 10px;
@@ -165,10 +183,36 @@
     line-height: 50px;
 }
 
+/*#townjson {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3%;
+    max-width: 1000px;
+    margin-left: 360px;
+    margin-bottom: 200px;
+}
+
+#towjson div {
+    grid-gap: 10px;
+}
+
+#townjson h5 {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20pt;
+}
+
+#townjson em {
+    font-size: 10pt;
+}
+
+#towjson p {
+    font-size: 16pt;
+    line-height: 50px;
+}
 
 
-
-    
+*/   
    
 
 }

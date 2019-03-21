@@ -12,19 +12,48 @@ h1, h2, h4{
 
 /* HEADER */
 
-header {
+/*#banner {
     background-color: rgb(107, 107, 255);
     text-align: center;
+}*/
+#banner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: lightseagreen;
 }
 
-header img, .headings {
+.headings {
+    font-size: 24pt;
+    font-family: Parisienne;
+    margin-left: 10px;
+    color: #ccc0bb;
+}
+
+.motto {
+    font-size: 20pt;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-left: 50px;
+    margin-top; -15px;
+    color: maroon;
+}
+
+.logoimage {
+
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
+/*header img, .headings {
     display: flex;
     padding: 10px;
    
-}
+}*/
 
-#logoimage {
-    width: 33%;
+/*.logoimage {
+    width: 15px;
     display: flex;
     align-items: center;
 }
@@ -51,14 +80,10 @@ header img, .headings {
     margin-bottom: 2em;
     margin-left: 4em;
     text-shadow: 3px 3px 5px lightslategray;  
-}
+}*/
 
 
-.currentpage {
 
-    color: whitesmoke;
-    background-color: #6682ff;
-   }
 
 /* NAVIGATION */
 
@@ -94,6 +119,12 @@ nav {
     text-decoration: none;
     font-size: 1.5em;
 }
+
+.currentpage {
+
+    color: whitesmoke;
+    background-color: lightseagreen;
+   }
 
 .mainmenu .currentpage {
     color: #394053;
@@ -344,7 +375,7 @@ textarea:required {
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
-    background-color: turquoise;
+    background-color: lightseagreen;
     padding-top: 7px;
     padding-bottom: 7px;
 }
@@ -365,13 +396,14 @@ textarea:required {
     font-family: 'Noto Sans JP', sans-serif;
     color: darkred;
     text-align: center;
-    font-size: 2.5vw;
+    font-size: 1.7vw;
     margin-top: 2em;
 }
 
 #townjson em {    
     text-align: center;
-    color: darkgoldenrod;
+    font-size: 0.8em;
+    color: maroon;
     
 }
 
@@ -384,4 +416,21 @@ textarea:required {
     color: black;
     font-size: 2em;
     font-weight: bold;
+}
+
+.attractions {
+    text-align: center;
+    background-color: lightblue;
+    margin-bottom: 20px;
+    border: black;
+  
+}
+
+.upcomming {
+    color: maroon;
+    font-size: 12pt
+}
+
+#shirt {
+    width: 15%;
 }
