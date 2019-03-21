@@ -230,6 +230,14 @@ footer {
 }
 
 
+#map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border-style: inset;
+}
+
 .contactinfo {
     background-color:rgb(74, 186, 214);
     line-height: 2px;
@@ -245,13 +253,7 @@ footer {
 }
 
 
-#map {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    border-style: inset;
-}
+
 
 /* GALLERY */
 
@@ -432,5 +434,5 @@ textarea:required {
 }
 
 #shirt {
-    width: 15%;
+    width: 25%;
 }

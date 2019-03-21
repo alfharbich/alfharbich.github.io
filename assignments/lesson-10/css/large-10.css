@@ -80,7 +80,7 @@
 .fiveday {
     display: flex;
     justify-content: center;
-    background-color: lightcyan;
+    background-color: rgb(51, 226, 226);
     width: 75%;
     height: auto;
     padding: 1em;
@@ -89,7 +89,7 @@
  
   .fiveday-td {
    
-    background-color: lightcyan;
+    background-color: rgb(123, 255, 255);
     height: 1.5em;
     width: 1em;
     padding: 1em;
@@ -145,7 +145,7 @@
 
     #map {
         float: center;
-        width: auto;
+        
         
         
         /*display: block;
