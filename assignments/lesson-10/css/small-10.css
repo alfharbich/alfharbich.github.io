@@ -35,7 +35,7 @@ h1, h2, h4{
     font-size: 20pt;
     font-family: 'Noto Sans JP', sans-serif;
     margin-left: 50px;
-    margin-top; -15px;
+    margin-top: -15px;
     color: maroon;
 }
 
@@ -426,7 +426,7 @@ textarea:required {
   
 }
 
-.upcomming {
+.upcoming {
     color: maroon;
     font-size: 12pt
 }
