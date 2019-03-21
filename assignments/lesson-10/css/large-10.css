@@ -143,18 +143,6 @@
         box-shadow: .25rem .25rem 1rem black;;
     }
 
-    #map {
-        float: center;
-        
-        
-        
-        /*display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: auto;
-        
-        border-style: inset;*/
-    }
 
 /*Town JSON*/
 #townjson {
@@ -165,6 +153,8 @@
     margin-left: 12%;
     margin-bottom: 30px;
 }
+
+
 
 /*
 
