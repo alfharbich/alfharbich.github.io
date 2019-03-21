@@ -1,0 +1,208 @@
+@media only screen and (min-width: 992px) {
+
+  /*  #logoimage {
+        width: 7%;
+        display: flex;
+        align-items: center;
+    }
+    
+      */
+    
+    .headings {
+        line-height: 0.75rem;
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .motto {
+        margin-top: 5px;
+        margin-left: 8px;
+    }
+  
+    
+    .mainmenu li:first-child { 
+        display: none;	
+    }
+    
+    .mainmenu li {
+        display: inline-block;
+    }
+    
+    .mainmenu ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .mainmenu a {
+        text-decoration: none;
+        color: #241c0c;
+        font-size: 1.5em;            
+        width: 100%;
+        text-align: center;
+        padding: .75rem;
+    }
+
+   
+
+    section.forecast {
+        
+        display: block;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    section.forecast h3 {
+        background-color: rgb(51, 226, 226);
+        font-family: Noto, sans, JP;
+        font-size: 2.5rem;
+    }
+    
+    section.forecast img {
+        width: 80%;
+    }
+    
+    table {
+        border-collapse: collapse;
+        margin-left: auto;
+        margin-right: auto;
+      }
+   
+    table, th, td {
+        
+        border: 1px solid black;
+        font-size: 1rem;
+        padding: 20px;
+      }
+  
+    /*Five Day*/
+
+.fiveday {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(51, 226, 226);
+    width: 75%;
+    height: auto;
+    padding: 1em;
+  }
+
+ 
+  .fiveday-td {
+   
+    background-color: rgb(123, 255, 255);
+    height: 1.5em;
+    width: 1em;
+    padding: 1em;
+    font-size: 2em;
+    
+    
+  }
+
+  .fiveday-td,
+  .fiveday-temp {
+    text-align: center;
+    font-size: 1.5em;
+    color: maroon;
+  }
+
+  .fiveday-td img {
+    width: 25px;
+    padding-top: 10px;
+  }
+  article {   
+      
+    width:100%;
+}
+    
+    article img {
+        width: 20%;        
+    
+    }
+    
+    .left {
+        display: inline-block;
+    }
+
+  
+    
+    .contactinfo #map {
+        width: 40%;
+        display: inline-block;
+        margin-left: -3%;
+    
+    }
+    
+
+
+    div.imageGallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    div.imageGallery figure:hover {
+        box-shadow: .25rem .25rem 1rem black;;
+    }
+
+
+/*Town JSON*/
+#townjson {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3%;
+    max-width: 1200px;
+    margin-left: 12%;
+    margin-bottom: 30px;
+}
+
+
+
+/*
+
+#townjson h5 {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20pt;
+}
+
+#townjson em {
+    font-size: 10pt;
+}
+
+#townjson p {
+    font-size: 16pt;
+    line-height: 50px;
+}
+
+/*#townjson {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3%;
+    max-width: 1000px;
+    margin-left: 360px;
+    margin-bottom: 200px;
+}
+
+#towjson div {
+    grid-gap: 10px;
+}
+
+#townjson h5 {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20pt;
+}
+
+#townjson em {
+    font-size: 10pt;
+}
+
+#towjson p {
+    font-size: 16pt;
+    line-height: 50px;
+}
+
+
+*/   
+   
+
+}
