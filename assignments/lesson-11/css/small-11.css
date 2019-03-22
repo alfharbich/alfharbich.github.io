@@ -230,27 +230,29 @@ footer {
 }
 
 
-#map {
-    display: block;
+footer img {
+    display: block;    
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 15px;
     width: 90%;
-    border-style: inset;
+    
+    
 }
 
 .contactinfo {
-    background-color:rgb(74, 186, 214);
+    background-color: rgb(190, 238, 212);
     line-height: 2px;
     overflow: auto;
 }
 
-.contactinfo h2 {
+/*.contactinfo h2 {
     text-align: center;
     color: #000000;
     font-weight: bold;
     font-size: 17px;
 
-}
+}*/
 
 
 

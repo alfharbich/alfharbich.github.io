@@ -18,11 +18,22 @@ article img {
     display: inline-block;
 }
 
-.contactinfo #map {
+/*.contactinfo #map {
     width: 40%;
     display: inline-block;
     margin-left: 200px;
 
+}*/
+
+
+footer img {
+    display: flex;    
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    width: 50%;
+    
+    
 }
 
 
