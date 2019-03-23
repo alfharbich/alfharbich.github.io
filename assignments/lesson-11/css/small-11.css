@@ -6,16 +6,14 @@ body {
     color: black;
 }
 
+
 h1, h2, h4{
     text-align: center;
 }
 
 /* HEADER */
 
-/*#banner {
-    background-color: rgb(107, 107, 255);
-    text-align: center;
-}*/
+/
 #banner {
     display: flex;
     flex-direction: row;
@@ -44,44 +42,6 @@ h1, h2, h4{
     margin-top: 10px;
     margin-right: 10px;
 }
-
-
-/*header img, .headings {
-    display: flex;
-    padding: 10px;
-   
-}*/
-
-/*.logoimage {
-    width: 15px;
-    display: flex;
-    align-items: center;
-}
-
-.headings {
-    display: flex;
-    flex-direction: column;
-}
-.headings h2 {
-    font-size: 39px;
-    font-family: Parisienne;
-    color: #ccc0bb;
-    margin-top: -2em;
-    margin-bottom: 2em;
-    margin-left: 4em;
-    text-shadow: 3px 3px 5px lightslategray;
-}
-
-.headings .motto {
-    font-size: 27px;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    color: lightcyan;
-    margin-top: -2em;
-    margin-bottom: 2em;
-    margin-left: 4em;
-    text-shadow: 3px 3px 5px lightslategray;  
-}*/
-
 
 
 
@@ -205,17 +165,8 @@ article h3 {
     margin-top: 0;
 }
 
-.festival {
-    border: 1px;
-    padding: 20px;
-    overflow: auto;
-}
 
-.pedro {
-    width: 15%;
-   
 
-}
 
 /* FOOTER */
 
@@ -224,7 +175,7 @@ footer {
     color: darkblue;
     text-align: center;
     font-size: 15px;
-    padding: 20px;
+    padding: 15px;
     padding-bottom: 30px;
     line-height: 5px;    
 }
@@ -236,6 +187,8 @@ footer img {
     margin-right: auto;
     margin-bottom: 15px;
     width: 90%;
+    padding: 2px;
+    box-shadow: 0 0 10px #777777;
     
     
 }
@@ -251,13 +204,13 @@ div.socials {
     display: none;
 }
 
-/*.contactinfo h2 {
+.contactinfo h2 {
     text-align: center;
     color: #000000;
     font-weight: bold;
     font-size: 17px;
 
-}*/
+}
 
 
 
@@ -427,24 +380,23 @@ textarea:required {
     font-weight: bold;
 }
 
-
-
-.attractions {
-    max-width: 300px;
-    margin: 50px auto;
+.events {
     text-align: center;
-    background-color: lightblue;
-    margin-bottom: 20px;
-    border: black;
+    
+}
+
+.events-article {
+    text-align: center;
+    list-style-type: none;
+       
+    
+}
+
+.events img {
+    width: 10%;
     border-radius: 2em;
-  
+    padding: 2px;
+    box-shadow: 0 0 10px #777777;
 }
 
-.upcoming {
-    color: maroon;
-    font-size: 12pt
-}
 
-#shirt {
-    width: 25%;
-}

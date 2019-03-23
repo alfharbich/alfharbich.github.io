@@ -131,23 +131,32 @@
         margin-left: -3%;
     
     }*/
+    footer {
+        font-size: 1.3em;
+    }
+    
 
     footer img {
         display: block;  
         float: right;  
         margin-left: auto;
-        margin-right: auto;
+        margin-right: 35px;
         margin-bottom: 15px;
         width: 25%;
+        padding: 2px;
+    box-shadow: 0 0 10px #777777;
         
         
     }
 
     div.socials {
-        float: left;
+        
         display: flex;
         flex-direction: column;
+        align-content: center;
     }
+
+    
 
 
     div.imageGallery {
