@@ -18,12 +18,14 @@ article img {
     display: inline-block;
 }
 
-/*.contactinfo #map {
-    width: 40%;
-    display: inline-block;
-    margin-left: 200px;
+.events img {
+    width: 25%;
+    border-radius: 2em;
+    padding: 2px;
+    box-shadow: 0 0 10px #777777;
+}
 
-}*/
+
 div.contactus {
 
     display: flex;
