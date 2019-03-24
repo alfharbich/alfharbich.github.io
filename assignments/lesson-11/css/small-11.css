@@ -119,6 +119,15 @@ section {
 }
 
 main picture.heroimg img {
+    width: 80%;
+}
+
+.thankyoudiv {
+    margin: auto;
+    position: relative;
+}
+
+main picture.thankyouimg img {
     width: 100%;
 }
 
