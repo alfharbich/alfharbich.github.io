@@ -1,6 +1,10 @@
 @media only screen and (min-width: 600px) {
 
- #logoimage {
+    head {
+        width: 100%;
+    }
+
+    #logoimage {
       width: 25%;
       display: flex;
       align-items: center;
@@ -59,15 +63,27 @@ div.imageGallery {
 
 /*Town Info*/
 
+#townjson div {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: lightseagreen;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+/*
+
 #townjson {
     display: flex;
-    float: center; 
+     
     
 }
 
 #townjson div {
     margin-top: 20px;
     margin-left: 30px;
+    display: inline;
 }
 
 #townjson h5 {
