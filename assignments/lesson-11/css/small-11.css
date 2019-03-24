@@ -128,7 +128,8 @@ main picture.heroimg img {
 }
 
 main picture.thankyouimg img {
-    width: 80%;
+    width: 100%;
+    
 }
 
 .weathersummary {

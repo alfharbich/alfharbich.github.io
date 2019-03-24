@@ -61,7 +61,8 @@ div.imageGallery {
 
 #townjson {
     display: flex;
-    flex-flow: row wrap; 
+    float: center; 
+    
 }
 
 #townjson div {
