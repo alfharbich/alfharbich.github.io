@@ -71,7 +71,7 @@
             ]
         },
         {
-            "name": "Washington DC Temple",
+           /* "name": "Washington DC Temple",
             "address": "9900 Stoneybrook DR",
             "state": "Kensington MD, 20895",
             "telephone": "(301) 588-0650",
@@ -97,7 +97,7 @@
             ],
             "templeClosure":[                
                 "Temple is currently closed for renovation"
-            ]
+            ]*/
         },
         {
             "name": "Chicago Illinois Temple",
