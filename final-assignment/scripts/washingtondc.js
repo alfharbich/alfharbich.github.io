@@ -72,7 +72,7 @@ function TempleInfo(jsonObj) {
     var data = jsonObj['temples'];
      for (i = 0; i < data.length; i++) {
         var name = data[i].name;
-        if ((name.includes("Los")) == false) {
+        if ((name.includes("Washington")) == false) {
         continue;
     }       
     var tempName=document.createElement('h2');
