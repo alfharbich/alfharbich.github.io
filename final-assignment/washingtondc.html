@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Alfred  Harbich">
+  <meta name="description" content="Temple Inn & Suites">
+  <title>Temples - Los Angeles California - Temple Inn & Suites</title>
+ 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playball">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hammersmith+One%7CLato:400,700">
+  <link href="https://fonts.googleapis.com/css?family=Petit+Formal+Script" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="logo">
+        <img src="images/moroni-logo.jpg" alt="logo">
+      </div>
+      <div class="headings">
+        <h1>Temple Inn & Suites</h1>
+      </div>
+      <div class="menuBtn">
+        <button onclick="toggle('menu')">&#9776;</button>
+      </div>
+      <nav>
+        <ul id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="temples.html" class="current">Temples</a></li>
+          <li><a href="reservations.html">Reservations</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+            <div class="hero">
+                    <picture>
+                      <source media="(min-width: 940px)" srcset="images/los-angeles-temple2-1200.jpg">
+                      <source media="(min-width: 480px)" srcset="images/los-angeles-temple2-640.jpg">
+                      <img src="images/los-angeles-temple2-320.jpg" alt="Gilber, Arizona LDS Temple">
+                    </picture>
+                    <div class="shadow"></div>
+                    <div class="call2action">
+                      <a href="reservations.html">Book Here!</a>
+                    </div>
+                  </div>
+             <br>            
+            <article class="jsdata">
+
+            </article>
+
+            <section class="weathersummary">
+                    <h3>Current Weather:</h3>
+                    <p>Temperature: <span id="current-temp"></span>&deg; F</p>
+                    <p>Humidity: <span id="current-humidity"></span>%</p>
+                    <p>Skies: <span id="current-skies"></span></p>
+                    <p>Windspeed: <span id="current-speed"></span> MPH</p>            
+                    <p>Wind Chill: <span id="current-chill"></span>&deg; F</p>
+                    <p>Wind Direction: <span id="direction"></span></p>
+            </section>
+          
+  
+
+          <aside class="contpage">        
+                    <div class="container">
+      
+            <div id="map"></div>
+         
+             <br> 
+            </aside>  
+            
+        </main>
+        
+            <footer>
+                
+           
+                    <div>
+                      <h4>Temple Inn & Suites</h4>
+                      <ul class="contact">
+                        <li>Phone: (301) 555-6565</li>
+                        <li>Email: tellus@templeinn.com</li>
+                        <li>Corporate Address:
+                          <ul class="address">
+                            <li>4800 Montgomery Ln #300</li>
+                            <li>Bethesda, MD 20814</li>
+                            <li>USA</li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                    <p><a href="resources.html">Acknowledgements</a></p>
+                    <p>
+                      <span class="cbr">&copy; 2019 Alfred Harbich</span>
+                      <span class="cbr" id="currentDate"></span>
+                      <span class="cbr"><a href="https://www.byui.edu">BYU - Idaho</a></span>
+                    </p>
+                  </footer>     
+            
+         <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+            
+            <script src="scripts/washingtondc.js"></script>
+            <script src="scripts/shorthand.js"></script>
+            <script src="scripts/functions.js"></script>
+        </body>        
+        </html>
