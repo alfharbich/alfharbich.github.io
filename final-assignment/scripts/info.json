@@ -101,20 +101,21 @@
         },
         {
             "name": "Chicago Illinois Temple",
-            "address": "50 South University Avenue",
-            "state": "Provo, Utah 84601",
-            "telephone": "(801)343-2700",
-            "email": "citycenter@temples.org",
+            "address": "4151 W Lake Ave",
+            "state": "Glenview, IL, 60025",
+            "telephone": "(847) 299-6500",
+            "email": "ChicagoTemple@LDS.org",
             "services": [
-                "Clothing rental available",
+                "No Clothing rental available",
                 "No cafeteria available",
                 "No patron housing available",
                 "Distribution center nearby"
             ],
             "milestones": [
-                "Announced October 1, 2011",
-                "Groundbreaking May 12, 2012",
-                "Dedicated March 20, 2016"
+                "Announced: April 1, 1981",
+                "Groundbreaking: August 13, 1983",
+                "Dedicated: August 9, 1985",
+                "Rededicated: October 8, 1989"
             ],
             "ordinanceSchedule":[
                 "Baptisms: 6:00AM - 8:00PM Walk-ins Only",
