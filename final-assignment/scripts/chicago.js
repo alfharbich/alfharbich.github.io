@@ -2,12 +2,12 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGFpbm9uIiwiYSI6ImNqdGtzZXJiajJ6YW00MG11MzB1M
 var map = new mapboxgl.Map({
 container: 'map',
 style: 'mapbox://styles/mapbox/streets-v11',
-center: [-77.065624 , 39.014079],
+center: [-87.859501 , 42.086829],
 zoom: 13
 });
 
 let weatherRequest = new XMLHttpRequest();
-weatherRequest.open('GET', "https://api.openweathermap.org/data/2.5/weather?zip=20895&units=imperial&APPID=01882f9d04643164dd726eac6ad8ca70", true);
+weatherRequest.open('GET', "https://api.openweathermap.org/data/2.5/weather?zip=60025&units=imperial&APPID=01882f9d04643164dd726eac6ad8ca70", true);
 weatherRequest.send();
 weatherRequest.onload = function() {
     let weatherData = JSON.parse(weatherRequest.responseText);
