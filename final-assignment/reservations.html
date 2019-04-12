@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Alfred  Harbich">
+    <meta name="description" content="Temple Inn & Suites">
+    <title>Reservations - Temple Inn & Suites</title>
+   
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playball">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hammersmith+One%7CLato:400,700">
+    <link href="https://fonts.googleapis.com/css?family=Petit+Formal+Script" rel="stylesheet">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="logo">
+        <img src="images/moroni-logo.jpg" alt="logo">
+      </div>
+      <div class="headings">
+        <h1>Temple Inn &amp; Suites</h1>
+      </div>
+      <div class="menuBtn">
+        <button onclick="toggle('menu')">&#9776;</button>
+      </div>
+      <nav>
+        <ul id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="temples.html">Temples</a></li>
+          <li><a href="reservations.html" class="current">Reservations</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="content">
+       
+        <h2>Reservations</h2>
+        <hr>
+        <form action="thanks.html">
+          <fieldset>
+            <legend>Guest Information:</legend>
+            <label for="firstname">First Name: </label>
+            <input type="text" id="firstname" name="firstname" pattern="[A-Za-z ]{1, 32}" autofocus required>
+            <label for="lastname">Last Name: </label>
+            <input type="text" id="lastname" name="lastname" required>
+          
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" placeholder="ex: name@email.com" required>
+            <label for="phone">Phone: </label>
+            <input type="tel" id="phone" name="phone" required>
+            <fieldset>
+              <legend>Address</legend>
+              <label for="address1">Street Address:</label>
+              <input type="text" id="address1" name="address1" required>
+              <input type="text" id="address2" name="address2">
+              <label for="city">City: </label>
+              <input type="text" id="city" name="city" required>
+              <label for="state">State / Province: </label>
+              <input type="text" id="state" name="state" required>
+              <label for="zipcode">Zip Code: </label>
+              <input type="number" id="zipcode" name="zipcode" required>
+            </fieldset>
+          </fieldset>
+          <fieldset>
+            <legend>Reservation Information</legend>
+            <label for="startdate">Reservation Dates:</label>
+            Check In: <input type="date" id="startdate" name="startdate">
+            Check Out: <input type="date" id="enddate" name="enddate">
+            <label for="location">Location: </label>
+            <select name="location" id="location">
+              <option value="">-- Select One --</option>
+              <option value="boise">Gilbert, AZ</option>
+              <option value="montreal">Los Angles, CA</option>
+              <option value="nauvoo">Washington, DC</option>
+              <option value="palmyra">Chicago, IL</option>
+              
+            </select>
+          
+            <label for="rooms">How many rooms? </label>
+            <input type="number" id="rooms" name="rooms" value="1">
+            <label for="occupants">How many beds? </label>
+            <input type="number" id="occupants" name="beds" value="1">
+            <label for="rooms">Number of adults: </label>
+            <input type="number" id="rooms" name="rooms" value="1">
+            <label for="occupants">Number of children (under 16): </label>
+            <input type="number" id="occupants" name="beds" value="1">
+          </fieldset>
+          <fieldset>
+            <legend>Questions / Special Requests:</legend>
+           
+            <textarea name="comments" id="comments"></textarea>
+          </fieldset>
+          <input type="submit">
+        </form>
+        
+     
+      </div>
+    </main>
+    <footer>
+        <div>
+          <h4>Temple Inn & Suites</h4>
+          <ul class="contact">
+            <li>Phone: (301) 555-6565</li>
+            <li>Email: tellus@templeinn.com</li>
+            <li>Corporate Address:
+              <ul class="address">
+                <li>4800 Montgomery Ln #300</li>
+                <li>Bethesda, MD 20814</li>
+                <li>USA</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <p><a href="resources.html">Acknowledgements</a></p>
+        <p>
+          <span class="cbr">&copy; 2019 Alfred Harbich</span>
+          <span class="cbr" id="currentDate"></span>
+          <span class="cbr"><a href="https://www.byui.edu">BYU - Idaho</a></span>
+        </p>
+      </footer>
+    </div>
+    <script src="scripts/templesummary.js"></script>
+   
+    <script src="scripts/shorthand.js"></script>
+   
+    <script src="scripts/functions.js"></script>
+  </body>
+  
+  </html>
