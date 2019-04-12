@@ -72,10 +72,10 @@
         },
         {
             "name": "Washington DC Temple",
-            "address": "350 22nd Street",
-            "state": "Ogden, Utah 84401-1487",
-            "telephone": "(801)621-6880",
-            "email": "ogden@temples.org",
+            "address": "9900 Stoneybrook DR",
+            "state": "Kensington MD, 20895",
+            "telephone": "(301) 588-0650",
+            "email": "WashingtonDCTemple@LDS.org",
             "services": [
                 "Clothing rental available",
                 "Cafeteria available",
@@ -83,10 +83,10 @@
                 "Distribution center nearby"
             ],
             "milestones": [
-                "Announced August 24, 1967",
-                "Groundbreaking September 8, 1969",
-                "Dedicated January 18, 1972",
-                "Rededicated September 21. 2014"
+                "Announced: November 15, 1968",
+                "Groundbreaking: December 7, 1968",
+                "Dedicated: November 19, 1974",
+                
             ],
             "ordinanceSchedule":[
                 "Baptisms: 5:30AM - 8:00PM Walk-ins Only",
