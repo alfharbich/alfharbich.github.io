@@ -59,12 +59,12 @@
         },
 
         {
-            "name ": "Gilbert Arizona Temple",
-            "Address ": "3301 S Greenfield Rd",
-            "state ": "Gilbert, Arizona, USA 85297",
-            "telephone ": "(480) 822-5000",
-            "email ": "GilbertTemple@lds.org",
-            "services ": [
+            "name": "Gilbert Arizona Temple",
+            "Address": "3301 S Greenfield Rd",
+            "state": "Gilbert, Arizona, USA 85297",
+            "telephone": "(480) 822-5000",
+            "email": "GilbertTemple@lds.org",
+            "services": [
                 "Clothing rental available",
                 "Cafeteria available",
                 "Patron housing available",
