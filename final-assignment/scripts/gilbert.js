@@ -56,7 +56,7 @@ weatherRequest.onload = function() {
 
 var temples, templesindex;
 var article = document.querySelector('article');
-var requestURL = "https://alfharbich.github.io/final-assignment/scripts/temples.json";
+var requestURL = "https://alfharbich.github.io/final-assignment/scripts/info.json";
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
