@@ -2,12 +2,12 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGFpbm9uIiwiYSI6ImNqdGtzZXJiajJ6YW00MG11MzB1M
 var map = new mapboxgl.Map({
 container: 'map',
 style: 'mapbox://styles/mapbox/streets-v11',
-center: [-111.737361, 33.291389],
+center: [-118.349747, 34.070152],
 zoom: 13
 });
 
 let weatherRequest = new XMLHttpRequest();
-weatherRequest.open('GET', "https://api.openweathermap.org/data/2.5/weather?zip=85297&units=imperial&APPID=01882f9d04643164dd726eac6ad8ca70", true);
+weatherRequest.open('GET', "https://api.openweathermap.org/data/2.5/weather?zip=90025&units=imperial&APPID=01882f9d04643164dd726eac6ad8ca70", true);
 weatherRequest.send();
 weatherRequest.onload = function() {
     let weatherData = JSON.parse(weatherRequest.responseText);
@@ -72,7 +72,7 @@ function TempleInfo(jsonObj) {
     var data = jsonObj['temples'];
      for (i = 0; i < data.length; i++) {
         var name = data[i].name;
-        if ((name.includes("Gilbert")) == false) {
+        if ((name.includes("Los")) == false) {
         continue;
     }       
     var tempName=document.createElement('h2');
